@@ -1,0 +1,5 @@
+dataset,project,branch,expected_barcode,expected_site_combo,threshold_nt,n_focal_sample_branches,n_focal_with_any_global_within_threshold,n_focal_with_same_barcode_global_within_threshold,total_global_records_any_barcode_within_threshold,total_global_records_same_barcode_within_threshold,median_min_any_global_distance_nt,median_min_same_barcode_global_distance_nt
+Australia,PRJNA1037681,C4,AU_C4_like,G-A-T-A-T,5,23,23,23,8043,7212,0.0,0.0
+Australia,PRJNA1037681,C6,AU_C6_like,A-T-C-G-C,5,23,13,0,1174,0,5.0,
+United States,PRJNA1130896,C18,US_C18_like,T-T,5,26,26,0,5063,0,2.0,12.0
+United States,PRJNA1130896,C21,US_C21_like,C-C,5,26,26,26,7002,5771,0.0,0.0

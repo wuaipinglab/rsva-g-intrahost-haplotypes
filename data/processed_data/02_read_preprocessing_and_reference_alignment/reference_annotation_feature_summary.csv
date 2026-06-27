@@ -1,0 +1,4 @@
+type,n_features,min_start,max_end
+CDS,11,70,15029
+reference_record,1,1,15225
+remark,1,1,15225

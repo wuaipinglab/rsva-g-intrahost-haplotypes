@@ -1,0 +1,8 @@
+project,validation_sample_set,TreeCluster_combo,nt_position_genome,ref_nt,target_nt,aa_position,lofreq_status,samples,median_alt_frequency_percent,min_alt_frequency_percent,max_alt_frequency_percent,median_depth
+PRJNA1037681,AU linked iSNV validation set,C4+C6,5510,G,A,287,called_target_alt,23,4.955699999999999,2.7127,8.5859,827.0
+PRJNA1037681,AU linked iSNV validation set,C4+C6,5520,A,T,290,called_target_alt,23,6.2299,3.1716,10.609,799.0
+PRJNA1037681,AU linked iSNV validation set,C4+C6,5544,C,T,298,called_target_alt,23,93.01310000000001,86.8119,95.7921,729.0
+PRJNA1037681,AU linked iSNV validation set,C4+C6,5558,G,A,303,called_target_alt,23,94.91760000000001,89.5906,97.3594,759.0
+PRJNA1037681,AU linked iSNV validation set,C4+C6,5563,T,C,304,called_target_alt,23,4.4818,2.3364,9.3836,763.0
+PRJNA1130896,US linked iSNV validation set,C18+C21,5531,T,C,294,called_target_alt,26,87.04055,74.3728,91.5636,3807.0
+PRJNA1130896,US linked iSNV validation set,C18+C21,5561,T,C,304,called_target_alt,26,85.0798,69.7757,91.1309,3088.0

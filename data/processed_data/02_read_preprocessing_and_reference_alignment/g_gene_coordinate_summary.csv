@@ -1,0 +1,6 @@
+feature,start,end,length_nt,note
+G_extracted_window,4652,5617,966,G segment used for haplotype and consensus comparisons
+HVR2_window,5249,5617,369,AA 200-322 mapped onto genome coordinates
+GFF_remark,1,15225,15225,"molecule_type=cRNA;organism=Human orthopneumovirus;taxonomy=Viruses,Riboviria,Orthornavirae,Negarnaviricota,Haploviricot"
+GFF_reference_record,1,15225,15225,mol_type=viral cRNA;organism=Human orthopneumovirus
+GFF_CDS,4652,5617,966,codon_start=1;db_xref=GeneID:37607642;gene=G;gene_name=G;Name=G;product=attachment glycoprotein

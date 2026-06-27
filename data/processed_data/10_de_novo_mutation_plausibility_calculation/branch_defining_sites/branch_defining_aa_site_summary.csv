@@ -1,0 +1,7 @@
+project,project_label,TreeCluster_combo,branch_a,branch_b,aa_position,branch_a_state,branch_b_state,aa_change,n_samples_total
+PRJNA1037681,Australia,C4+C6,C4,C6,287,E,K,E>K,23
+PRJNA1037681,Australia,C4+C6,C4,C6,290,H,L,H>L,23
+PRJNA1037681,Australia,C4+C6,C4,C6,298,L,P,L>P,23
+PRJNA1037681,Australia,C4+C6,C4,C6,303,I,V,I>V,23
+PRJNA1130896,United States,C18+C21,C18,C21,294,S,P,S>P,26
+PRJNA1130896,United States,C18+C21,C18,C21,304,Y,H,Y>H,26

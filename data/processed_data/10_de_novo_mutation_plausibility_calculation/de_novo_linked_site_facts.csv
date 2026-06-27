@@ -1,0 +1,3 @@
+project,project_label,target_combo,k_linked_sites,observed_target_samples,site_pattern
+PRJNA1037681,Australia,C4+C6,5,23,5510 G>A; 5520 A>T; 5544 C>T; 5558 G>A; 5563 T>C
+PRJNA1130896,United States,C18+C21,2,26,5531 T>C; 5561 T>C

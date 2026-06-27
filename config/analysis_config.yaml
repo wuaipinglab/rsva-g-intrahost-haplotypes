@@ -1,0 +1,40 @@
+project:
+  name: rsva-g-intrahost-haplotypes
+  region: RSV-A G
+
+paths:
+  metadata_dir: data/metadata
+  reference_dir: data/reference
+  input_dir: data/input
+  processed_data_dir: data/processed_data
+  figures_dir: results/figures
+
+input_files:
+  metadata: data/metadata/meta_v6_with_season_clade.csv
+  depth_qc: data/metadata/qualified_samples_depth200_pos90.csv
+  reference_fasta: data/reference/reference.fasta
+  reference_gff: data/reference/genome_annotation.gff
+  g_reference_alignment: data/reference/EPI_ISL_412866_G_4652-5617_reference_alignment.fasta
+  lofreq_raw_isnv_csv: data/input/isnv/lofreq_raw_calls.csv
+  australia_haplotype_fasta: data/input/haplotypes/PRJNA1037681_extracted_4652-5617.fasta
+  united_states_haplotype_fasta: data/input/haplotypes/PRJNA1130896_extracted_4652-5617.fasta
+  australia_consensus_g_fasta: data/input/consensus/PRJNA1037681_all_consensus_extracted_4652-5617.fasta
+  united_states_consensus_g_fasta: data/input/consensus/PRJNA1130896_all_consensus_extracted_4652-5617.fasta
+  global_g_fasta: data/input/global/nextstrain_2026_global_G_4652-5617_filtered.fasta
+
+notebooks:
+  directory: notebooks
+  optional_manifest: notebooks/00_input_manifest_optional.ipynb
+  analysis_notebooks:
+    - notebooks/01_data_sources_and_sample_inclusion.ipynb
+    - notebooks/02_read_preprocessing_and_reference_alignment.ipynb
+    - notebooks/03_consensus_sequence_generation_and_clade_annotation.ipynb
+    - notebooks/04_intrahost_variant_calling.ipynb
+    - notebooks/05_screening_for_covarying_g_gene_sites.ipynb
+    - notebooks/06_g_gene_haplotype_reconstruction.ipynb
+    - notebooks/07_g_gene_phylogeny_and_haplotype_branch_assignment.ipynb
+    - notebooks/08_permutation_test_for_cross_branch_combinations.ipynb
+    - notebooks/09_identification_of_branch_defining_sites.ipynb
+    - notebooks/10_de_novo_mutation_plausibility_calculation.ipynb
+    - notebooks/11_global_consensus_g_gene_background_analysis.ipynb
+

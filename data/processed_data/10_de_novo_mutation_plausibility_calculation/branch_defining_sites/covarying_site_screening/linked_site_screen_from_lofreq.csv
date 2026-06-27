@@ -1,0 +1,8 @@
+project,project_label,position,Reference,Allele,samples_with_candidate_iSNV,n_validation_samples,min_samples_required,recurrence_fraction,median_AF,min_AF,max_AF,median_DP,screen_rule
+PRJNA1037681,Australia,5510,G,A,22,23,20,0.9565217391304348,0.050171499999999994,0.031902,0.085859,821.0,G SNV; 0.03<=AF<0.97; recurrent in >= 85% of validation samples
+PRJNA1037681,Australia,5520,A,T,23,23,20,1.0,0.062299,0.031716,0.10609,799.0,G SNV; 0.03<=AF<0.97; recurrent in >= 85% of validation samples
+PRJNA1037681,Australia,5544,C,T,23,23,20,1.0,0.930131,0.868119,0.957921,729.0,G SNV; 0.03<=AF<0.97; recurrent in >= 85% of validation samples
+PRJNA1037681,Australia,5558,G,A,21,23,20,0.9130434782608695,0.948718,0.895906,0.966292,728.0,G SNV; 0.03<=AF<0.97; recurrent in >= 85% of validation samples
+PRJNA1037681,Australia,5563,T,C,20,23,20,0.8695652173913043,0.046804,0.03666,0.093836,744.5,G SNV; 0.03<=AF<0.97; recurrent in >= 85% of validation samples
+PRJNA1130896,United States,5531,T,C,26,26,23,1.0,0.8704054999999999,0.743728,0.915636,3807.0,G SNV; 0.03<=AF<0.97; recurrent in >= 85% of validation samples
+PRJNA1130896,United States,5561,T,C,26,26,23,1.0,0.850798,0.697757,0.911309,3088.0,G SNV; 0.03<=AF<0.97; recurrent in >= 85% of validation samples

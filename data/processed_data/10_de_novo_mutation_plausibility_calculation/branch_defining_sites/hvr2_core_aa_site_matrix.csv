@@ -1,0 +1,5 @@
+project,project_label,TreeCluster_combo,branch,n_samples_total,AA287,AA290,AA294,AA298,AA303,AA304
+PRJNA1037681,Australia,C4+C6,C4,23,E,H,,L,I,
+PRJNA1037681,Australia,C4+C6,C6,23,K,L,,P,V,
+PRJNA1130896,United States,C18+C21,C18,26,,,S,,,Y
+PRJNA1130896,United States,C18+C21,C21,26,,,P,,,H

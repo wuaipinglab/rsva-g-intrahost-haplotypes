@@ -1,0 +1,5 @@
+project,project_label,input_role,input_path,records,samples,min_length_nt,median_length_nt,max_length_nt,median_ambiguous_fraction,max_ambiguous_fraction
+PRJNA1037681,Australia,study_consensus_G_FASTA,data/input/consensus/PRJNA1037681_all_consensus_extracted_4652-5617.fasta,37,37,966,966.0,966,0.0,0.004140786749482402
+PRJNA1037681,Australia,haplotype_G_FASTA,data/input/haplotypes/PRJNA1037681_extracted_4652-5617.fasta,74,37,966,966.0,966,0.0,0.0010351966873706005
+PRJNA1130896,United States,study_consensus_G_FASTA,data/input/consensus/PRJNA1130896_all_consensus_extracted_4652-5617.fasta,75,75,966,966.0,966,0.0,0.007246376811594203
+PRJNA1130896,United States,haplotype_G_FASTA,data/input/haplotypes/PRJNA1130896_extracted_4652-5617.fasta,144,72,966,966.0,966,0.0,0.027950310559006212

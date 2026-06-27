@@ -1,0 +1,3 @@
+project,project_label,qualified_samples,median_mean_depth,median_median_depth,median_qualified_ratio
+PRJNA1037681,Australia,37,2741.080065681445,2418.0,0.977536945812808
+PRJNA1130896,United States,75,7593.937996715927,5032.0,0.9921182266009853
