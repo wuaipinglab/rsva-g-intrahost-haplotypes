@@ -1,0 +1,6 @@
+project,TreeCluster_branch,hap_rank_in_sample,n_haplotypes,median_nearest_distance_nt,min_nearest_distance_nt,max_nearest_distance_nt,exact_global_match_n,within_1nt_global_match_n
+PRJNA1037681,C4,1,23,0.0,0,2,17,21
+PRJNA1037681,C6,2,23,5.0,3,8,0,0
+PRJNA1130896,C18,2,26,2.0,2,4,0,0
+PRJNA1130896,C21,1,26,0.0,0,1,22,26
+PRJNA1130896,C21,3,1,0.0,0,0,1,1

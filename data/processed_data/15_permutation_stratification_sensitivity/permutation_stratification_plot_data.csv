@@ -1,0 +1,17 @@
+TreeCluster_combo,observed_rank,observed_count,null_mean,null_sd,null_q025,null_median,null_q975,observed_expected_ratio,unadjusted_p_count,max_count_adjusted_p,observed_z,maxT_adjusted_p,project,project_label,target_combo,analysis_mode,mode_label,mode_note,status,mode_order,mode_label_clean,mode_order_clean
+C4+C6,1,23,10.2689,2.284896896512241,6.0,10.0,15.0,2.239772517017402,4.999750012499375e-05,4.999750012499375e-05,5.571848786452144,0.0258987050647467,PRJNA1037681,Australia,C4+C6,all_unstratified,"All samples
+unstratified","all samples, no exchangeability strata",ok,0,Pooled,0
+C4+C6,1,23,10.67605,2.3437962937408843,6.0,11.0,15.0,2.154354840975829,4.999750012499375e-05,4.999750012499375e-05,5.2581148084034215,4.999750012499375e-05,PRJNA1037681,Australia,C4+C6,all_month_only,"All samples
+month only","all samples, preserving collection month",ok,1,Month only,1
+C4+C6,1,23,10.6584,2.327462200340386,6.0,11.0,15.0,2.157922389852135,4.999750012499375e-05,4.999750012499375e-05,5.302599543053832,4.999750012499375e-05,PRJNA1037681,Australia,C4+C6,all_month_region,"All samples
+month+region","all samples, preserving collection month and sampling region",ok,2,Month-region,2
+C4+C6,1,23,13.05605,2.5180002807328616,8.0,13.0,18.0,1.7616354104036058,4.999750012499375e-05,4.999750012499375e-05,3.94914570744441,4.999750012499375e-05,PRJNA1037681,Australia,C4+C6,all_month_region_clade,"All samples
+month+region+clade","all samples, preserving collection month, sampling region, and Nextclade clade",ok,3,Month-region-clade,3
+C18+C21,1,26,6.58425,2.091535479864776,3.0,7.0,11.0,3.948817253293845,4.999750012499375e-05,4.999750012499375e-05,9.28301249819357,4.999750012499375e-05,PRJNA1130896,United States,C18+C21,all_unstratified,"All samples
+unstratified","all samples, no exchangeability strata",ok,0,Pooled,0
+C18+C21,1,26,8.0832,2.3064569684230745,4.0,8.0,13.0,3.216547901821061,4.999750012499375e-05,4.999750012499375e-05,7.768105039587938,4.999750012499375e-05,PRJNA1130896,United States,C18+C21,all_month_only,"All samples
+month only","all samples, preserving collection month",ok,1,Month only,1
+C18+C21,1,26,9.21765,2.287802478254837,5.0,9.0,14.0,2.8206755517946545,4.999750012499375e-05,4.999750012499375e-05,7.335576457982412,4.999750012499375e-05,PRJNA1130896,United States,C18+C21,all_month_region,"All samples
+month+region","all samples, preserving collection month and sampling region",ok,2,Month-region,2
+C18+C21,1,26,15.95765,2.6460549045376767,11.0,16.0,21.0,1.629312586753062,4.999750012499375e-05,4.999750012499375e-05,3.7952160337937575,4.999750012499375e-05,PRJNA1130896,United States,C18+C21,all_month_region_clade,"All samples
+month+region+clade","all samples, preserving collection month, sampling region, and Nextclade clade",ok,3,Month-region-clade,3

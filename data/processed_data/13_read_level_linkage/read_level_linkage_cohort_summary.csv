@@ -1,0 +1,3 @@
+project,cohort,selection_mode,n_samples,target_sites,median_total_spanning_reads,mean_total_spanning_reads,median_unique_read_combos,median_sample_top2_pct,mean_sample_top2_pct,median_global_top2_pct,mean_global_top2_pct,median_other_after_global_top2_pct,selected_TreeCluster_combo
+PRJNA1037681,Australia,top_treecluster_combo,23,5510;5520;5544;5558;5563,417.0,534.695652173913,6.0,96.51162790697676,96.33497649546092,96.51162790697676,96.33497649546092,3.488372093023256,C4+C6
+PRJNA1130896,United States,top_treecluster_combo,26,5531;5561,2038.5,1981.8076923076924,4.0,99.74136494984,99.6169912120726,99.74136494984,99.6169912120726,0.25863505015998545,C18+C21

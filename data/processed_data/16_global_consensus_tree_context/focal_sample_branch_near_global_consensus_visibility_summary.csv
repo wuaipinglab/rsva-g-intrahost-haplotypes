@@ -1,0 +1,5 @@
+dataset,branch,expected_barcode,threshold_nt,n_focal_sample_branches,n_focal_with_any_global_within_threshold,n_focal_with_same_barcode_global_within_threshold,total_global_records_any_barcode_within_threshold,total_global_records_same_barcode_within_threshold,median_min_any_global_distance_nt,median_min_same_barcode_global_distance_nt
+United States,C18,US_C18_like,5,26,26,0,5063,0,2.0,12.0
+United States,C21,US_C21_like,5,26,26,26,7002,5771,0.0,0.0
+Australia,C4,AU_C4_like,5,23,23,23,8043,7212,0.0,0.0
+Australia,C6,AU_C6_like,5,23,13,0,1174,0,5.0,
