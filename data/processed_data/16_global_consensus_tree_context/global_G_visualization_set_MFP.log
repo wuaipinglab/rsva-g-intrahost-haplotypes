@@ -1,0 +1,1641 @@
+IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    autodl-container-ca5bd23281-6397d221 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree -s /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data_v2/140_global_G_tree_minor_haplotype_context/fasta/global_G_tree_visualization_set_with_study_consensus_and_focal_haplotypes.fasta -m MFP -nt 16 -pre /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data_v2/140_global_G_tree_minor_haplotype_context/tree/global_G_visualization_set_MFP -redo
+Seed:    736324 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon May 25 20:09:11 2026
+Kernel:  AVX+FMA - 16 threads (128 CPU cores detected)
+
+Reading alignment file /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data_v2/140_global_G_tree_minor_haplotype_context/fasta/global_G_tree_visualization_set_with_study_consensus_and_focal_haplotypes.fasta ... Fasta format detected
+Reading fasta file: done in 0.0165498 secs using 80.37% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0112549 secs using 857.5% CPU
+Alignment has 1223 sequences with 966 columns, 783 distinct patterns
+620 parsimony-informative, 125 singleton sites, 221 constant sites
+                                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000317447 secs using 3954% CPU
+   1  NG2026_Grep00006                       0.00%    passed     99.91%
+   2  NG2026_Grep00010                       0.00%    passed     98.18%
+   3  NG2026_Grep00012                       1.24%    passed     71.52%
+   4  NG2026_Grep00013                       1.24%    passed     59.06%
+   5  NG2026_Grep00015                       3.11%    passed     88.46%
+   6  NG2026_Grep00017                       3.21%    passed     93.53%
+   7  NG2026_Grep00018                       0.00%    passed     99.63%
+   8  NG2026_Grep00023                       1.24%    passed     62.70%
+   9  NG2026_Grep00025                       1.24%    passed     58.78%
+  10  NG2026_Grep00028                       1.35%    passed     72.47%
+  11  NG2026_Grep00029                       1.24%    passed     74.96%
+  12  NG2026_Grep00031                       1.24%    passed     64.31%
+  13  NG2026_Grep00037                       1.24%    passed     74.96%
+  14  NG2026_Grep00038                       1.24%    passed     64.17%
+  15  NG2026_Grep00039                       1.14%    passed     83.97%
+  16  NG2026_Grep00040                       1.04%    passed     86.80%
+  17  NG2026_Grep00041                       0.00%    passed     99.03%
+  18  NG2026_Grep00084                       0.00%    passed     99.43%
+  19  NG2026_Grep00090                       1.24%    passed     71.09%
+  20  NG2026_Grep00093                       1.24%    passed     58.18%
+  21  NG2026_Grep00094                       0.00%    passed     23.79%
+  22  NG2026_Grep00097                       1.24%    passed     64.43%
+  23  NG2026_Grep00098                       1.24%    passed     50.09%
+  24  NG2026_Grep00099                       1.24%    passed     74.96%
+  25  NG2026_Grep00100                       1.24%    passed     72.25%
+  26  NG2026_Grep00101                       1.24%    passed     62.05%
+  27  NG2026_Grep00103                       1.24%    passed     60.48%
+  28  NG2026_Grep00106                       1.24%    passed     60.56%
+  29  NG2026_Grep00107                       1.24%    passed     58.59%
+  30  NG2026_Grep00108                       1.24%    passed     61.56%
+  31  NG2026_Grep00109                       1.45%    passed     67.67%
+  32  NG2026_Grep00111                       1.24%    passed     57.25%
+  33  NG2026_Grep00112                       1.24%    passed     52.35%
+  34  NG2026_Grep00115                       1.24%    passed     78.55%
+  35  NG2026_Grep00116                       1.24%    passed     82.05%
+  36  NG2026_Grep00117                       1.24%    passed     90.64%
+  37  NG2026_Grep00136                       3.11%    passed     79.85%
+  38  NG2026_Grep00138                       3.11%    passed     82.48%
+  39  NG2026_Grep00146                       0.00%    passed     99.00%
+  40  NG2026_Grep00180                       0.00%    passed     95.92%
+  41  NG2026_Grep00183                       0.00%    passed     95.18%
+  42  NG2026_Grep00190                       0.00%    passed     99.19%
+  43  NG2026_Grep00197                       0.00%    passed     99.85%
+  44  NG2026_Grep00216                       3.11%    passed     96.19%
+  45  NG2026_Grep00217                       1.24%    passed     61.42%
+  46  NG2026_Grep00218                       1.24%    passed     62.92%
+  47  NG2026_Grep00220                       1.24%    passed     66.65%
+  48  NG2026_Grep00221                       1.24%    passed     50.76%
+  49  NG2026_Grep00232                       0.00%    passed     90.83%
+  50  NG2026_Grep00264                       3.11%    passed     69.13%
+  51  NG2026_Grep00265                       3.11%    passed     86.40%
+  52  NG2026_Grep00266                       3.11%    passed     77.41%
+  53  NG2026_Grep00267                       1.24%    passed     60.56%
+  54  NG2026_Grep00268                       0.00%    passed     99.58%
+  55  NG2026_Grep00269                       0.00%    passed     99.92%
+  56  NG2026_Grep00271                       0.00%    passed     99.64%
+  57  NG2026_Grep00272                       0.00%    passed     99.18%
+  58  NG2026_Grep00278                       0.00%    passed     97.59%
+  59  NG2026_Grep00280                       0.00%    passed     98.80%
+  60  NG2026_Grep00346                       0.00%    passed     91.71%
+  61  NG2026_Grep00347                       0.00%    passed     99.70%
+  62  NG2026_Grep00348                       0.00%    passed     96.60%
+  63  NG2026_Grep00349                       0.00%    passed     96.98%
+  64  NG2026_Grep00354                       0.00%    passed     98.77%
+  65  NG2026_Grep00355                       0.00%    passed     98.36%
+  66  NG2026_Grep00356                       0.00%    passed     99.52%
+  67  NG2026_Grep00357                       0.00%    passed     98.29%
+  68  NG2026_Grep00360                       0.00%    passed     98.95%
+  69  NG2026_Grep00385                       0.00%    passed     94.73%
+  70  NG2026_Grep00387                       1.24%    passed     78.08%
+  71  NG2026_Grep00389                       0.00%    passed     96.84%
+  72  NG2026_Grep00429                       0.00%    passed     91.61%
+  73  NG2026_Grep00464                       0.00%    passed     96.78%
+  74  NG2026_Grep00475                       0.00%    passed     99.78%
+  75  NG2026_Grep00488                       0.00%    passed     97.57%
+  76  NG2026_Grep00492                       0.00%    passed     97.07%
+  77  NG2026_Grep00495                       0.00%    passed     96.32%
+  78  NG2026_Grep00518                       0.00%    passed     96.86%
+  79  NG2026_Grep00520                       1.24%    passed     65.23%
+  80  NG2026_Grep00521                       0.00%    passed     99.99%
+  81  NG2026_Grep00523                       0.00%    passed     99.16%
+  82  NG2026_Grep00524                       0.00%    passed     99.14%
+  83  NG2026_Grep00528                       0.00%    passed     98.16%
+  84  NG2026_Grep00570                       0.00%    passed     99.94%
+  85  NG2026_Grep00586                       0.00%    passed     99.97%
+  86  NG2026_Grep00589                       0.00%    passed     96.69%
+  87  NG2026_Grep00604                       0.00%    passed     99.82%
+  88  NG2026_Grep00606                       0.00%    passed     99.72%
+  89  NG2026_Grep00609                       0.00%    passed     99.96%
+  90  NG2026_Grep00618                       0.00%    passed     99.91%
+  91  NG2026_Grep00621                       0.00%    passed     99.94%
+  92  NG2026_Grep00622                       0.00%    passed     97.92%
+  93  NG2026_Grep00623                       0.00%    passed     99.82%
+  94  NG2026_Grep00636                       0.00%    passed     99.23%
+  95  NG2026_Grep00649                       0.00%    passed     98.79%
+  96  NG2026_Grep00653                       0.00%    passed     99.72%
+  97  NG2026_Grep00659                       0.00%    passed     99.70%
+  98  NG2026_Grep00668                       0.00%    passed     89.40%
+  99  NG2026_Grep00672                       0.00%    passed     98.72%
+ 100  NG2026_Grep00719                       0.00%    passed     99.22%
+ 101  NG2026_Grep00722                       0.00%    passed     99.30%
+ 102  NG2026_Grep00724                       0.00%    passed     96.37%
+ 103  NG2026_Grep00735                       0.00%    passed     99.93%
+ 104  NG2026_Grep00794                       0.00%    passed     99.47%
+ 105  NG2026_Grep00803                       0.00%    passed     99.73%
+ 106  NG2026_Grep00814                       0.00%    passed     95.82%
+ 107  NG2026_Grep00826                       0.00%    passed     90.77%
+ 108  NG2026_Grep00827                       0.00%    passed     94.55%
+ 109  NG2026_Grep00828                       0.10%    passed     94.50%
+ 110  NG2026_Grep00839                       0.00%    passed     99.99%
+ 111  NG2026_Grep00854                       0.00%    passed     99.93%
+ 112  NG2026_Grep00868                       0.00%    passed     98.81%
+ 113  NG2026_Grep00870                       0.00%    passed     98.76%
+ 114  NG2026_Grep00873                       0.00%    passed     97.89%
+ 115  NG2026_Grep00879                       0.00%    passed     99.03%
+ 116  NG2026_Grep00880                       0.00%    passed     97.14%
+ 117  NG2026_Grep00884                       0.00%    passed     99.99%
+ 118  NG2026_Grep00885                       0.00%    passed     99.39%
+ 119  NG2026_Grep00905                       0.00%    passed     97.47%
+ 120  NG2026_Grep00925                       0.00%    passed     98.54%
+ 121  NG2026_Grep00935                       0.00%    passed     97.47%
+ 122  NG2026_Grep00938                       4.45%    passed     80.66%
+ 123  NG2026_Grep00962                       4.45%    passed     99.78%
+ 124  NG2026_Grep00992                       4.45%    passed     99.66%
+ 125  NG2026_Grep00996                       4.45%    passed     96.17%
+ 126  NG2026_Grep01011                       4.45%    passed     95.86%
+ 127  NG2026_Grep01026                       4.45%    passed     95.89%
+ 128  NG2026_Grep01046                       4.45%    passed     98.25%
+ 129  NG2026_Grep01060                       0.00%    passed     97.33%
+ 130  NG2026_Grep01063                       0.00%    passed     98.31%
+ 131  NG2026_Grep01067                       0.00%    passed     98.50%
+ 132  NG2026_Grep01070                       0.00%    passed     98.80%
+ 133  NG2026_Grep01076                       0.00%    passed     99.52%
+ 134  NG2026_Grep01078                       0.00%    passed     99.97%
+ 135  NG2026_Grep01085                       0.00%    passed     98.92%
+ 136  NG2026_Grep01087                       0.00%    passed     99.22%
+ 137  NG2026_Grep01094                       0.00%    passed     99.52%
+ 138  NG2026_Grep01095                       0.00%    passed     99.94%
+ 139  NG2026_Grep01098                       0.00%    passed     99.87%
+ 140  NG2026_Grep01103                       0.00%    passed     94.58%
+ 141  NG2026_Grep01104                       0.00%    passed     99.88%
+ 142  NG2026_Grep01113                       0.00%    passed     98.58%
+ 143  NG2026_Grep01114                       0.00%    passed     98.26%
+ 144  NG2026_Grep01115                       0.00%    passed     99.68%
+ 145  NG2026_Grep01119                       0.00%    passed     99.59%
+ 146  NG2026_Grep01124                       0.00%    passed     95.30%
+ 147  NG2026_Grep01127                       0.00%    passed     98.50%
+ 148  NG2026_Grep01128                       0.00%    passed     99.40%
+ 149  NG2026_Grep01141                       0.00%    passed     99.05%
+ 150  NG2026_Grep01144                       0.00%    passed     99.85%
+ 151  NG2026_Grep01146                       0.00%    passed     99.99%
+ 152  NG2026_Grep01147                       0.00%    passed     99.79%
+ 153  NG2026_Grep01159                       0.00%    passed     99.88%
+ 154  NG2026_Grep01165                       0.00%    passed     99.33%
+ 155  NG2026_Grep01176                       0.00%    passed     99.39%
+ 156  NG2026_Grep01225                       0.00%    passed     98.85%
+ 157  NG2026_Grep01240                       0.00%    passed     99.24%
+ 158  NG2026_Grep01241                       0.00%    passed     87.33%
+ 159  NG2026_Grep01250                       0.00%    passed     98.57%
+ 160  NG2026_Grep01268                       0.00%    passed     95.14%
+ 161  NG2026_Grep01278                       0.00%    passed     96.83%
+ 162  NG2026_Grep01282                       0.00%    passed     99.32%
+ 163  NG2026_Grep01290                       0.00%    passed     99.68%
+ 164  NG2026_Grep01302                       0.00%    passed     99.74%
+ 165  NG2026_Grep01304                       1.24%    passed     71.48%
+ 166  NG2026_Grep01310                       3.11%    passed     98.31%
+ 167  NG2026_Grep01323                       0.00%    passed     99.93%
+ 168  NG2026_Grep01327                       0.00%    passed     99.79%
+ 169  NG2026_Grep01328                       0.00%    passed     98.50%
+ 170  NG2026_Grep01329                       0.00%    passed     99.48%
+ 171  NG2026_Grep01330                       0.00%    passed     99.62%
+ 172  NG2026_Grep01334                       0.00%    passed     99.62%
+ 173  NG2026_Grep01336                       0.00%    passed     73.61%
+ 174  NG2026_Grep01345                       0.00%    passed     99.26%
+ 175  NG2026_Grep01348                       0.00%    passed     98.65%
+ 176  NG2026_Grep01349                       0.00%    passed     45.51%
+ 177  NG2026_Grep01352                       0.00%    passed     45.04%
+ 178  NG2026_Grep01355                       0.00%    passed     50.99%
+ 179  NG2026_Grep01359                       0.00%    passed     45.04%
+ 180  NG2026_Grep01360                       0.00%    passed     50.49%
+ 181  NG2026_Grep01361                       0.00%    passed     45.04%
+ 182  NG2026_Grep01362                       0.00%    passed     50.99%
+ 183  NG2026_Grep01370                       0.00%    passed     45.04%
+ 184  NG2026_Grep01371                       0.00%    passed     45.55%
+ 185  NG2026_Grep01376                       0.00%    passed     45.04%
+ 186  NG2026_Grep01377                       0.00%    passed     50.99%
+ 187  NG2026_Grep01383                       0.00%    passed     51.04%
+ 188  NG2026_Grep01387                       0.00%    passed     44.17%
+ 189  NG2026_Grep01393                       0.00%    passed     48.54%
+ 190  NG2026_Grep01394                       0.00%    passed     28.33%
+ 191  NG2026_Grep01395                       0.00%    passed     99.78%
+ 192  NG2026_Grep01415                       0.21%    passed     99.88%
+ 193  NG2026_Grep01427                       0.00%    passed     90.77%
+ 194  NG2026_Grep01428                       0.00%    passed     98.07%
+ 195  NG2026_Grep01434                       0.00%    passed     95.92%
+ 196  NG2026_Grep01443                       0.00%    passed     97.57%
+ 197  NG2026_Grep01454                       0.00%    passed     99.40%
+ 198  NG2026_Grep01463                       0.00%    passed     99.62%
+ 199  NG2026_Grep01466                       0.00%    passed     99.58%
+ 200  NG2026_Grep01469                       0.00%    passed     99.72%
+ 201  NG2026_Grep01502                       0.00%    passed     98.87%
+ 202  NG2026_Grep01513                       0.00%    passed     99.43%
+ 203  NG2026_Grep01515                       0.00%    passed     99.46%
+ 204  NG2026_Grep01518                       0.00%    passed     98.87%
+ 205  NG2026_Grep01519                       0.00%    passed     99.50%
+ 206  NG2026_Grep01520                       0.00%    passed     97.19%
+ 207  NG2026_Grep01523                       0.00%    passed     95.72%
+ 208  NG2026_Grep01530                       0.00%    passed     98.59%
+ 209  NG2026_Grep01535                       0.00%    passed     99.52%
+ 210  NG2026_Grep01536                       0.00%    passed     99.56%
+ 211  NG2026_Grep01538                       0.00%    passed     99.22%
+ 212  NG2026_Grep01541                       0.00%    passed     96.37%
+ 213  NG2026_Grep01550                       0.00%    passed     99.23%
+ 214  NG2026_Grep01557                       0.00%    passed     99.50%
+ 215  NG2026_Grep01566                       0.00%    passed     96.48%
+ 216  NG2026_Grep01567                       0.00%    passed     99.74%
+ 217  NG2026_Grep01570                       0.00%    passed     97.66%
+ 218  NG2026_Grep01574                       0.00%    passed     97.52%
+ 219  NG2026_Grep01578                       0.00%    passed     93.08%
+ 220  NG2026_Grep01587                       0.00%    passed     99.43%
+ 221  NG2026_Grep01591                       0.00%    passed     99.99%
+ 222  NG2026_Grep01613                       0.00%    passed     91.61%
+ 223  NG2026_Grep01620                       0.00%    passed     92.70%
+ 224  NG2026_Grep01627                       0.00%    passed     98.09%
+ 225  NG2026_Grep01628                       0.00%    passed     99.53%
+ 226  NG2026_Grep01636                       0.00%    passed     98.75%
+ 227  NG2026_Grep01652                       0.00%    passed     96.09%
+ 228  NG2026_Grep01659                       0.00%    passed     97.67%
+ 229  NG2026_Grep01671                       0.00%    passed     99.05%
+ 230  NG2026_Grep01673                       0.00%    passed     94.81%
+ 231  NG2026_Grep01681                       0.00%    passed     98.68%
+ 232  NG2026_Grep01711                       1.24%    passed     97.60%
+ 233  NG2026_Grep01715                       0.00%    passed     80.18%
+ 234  NG2026_Grep01734                       0.00%    passed     98.97%
+ 235  NG2026_Grep01735                       0.00%    passed     97.79%
+ 236  NG2026_Grep01738                       0.00%    passed     99.82%
+ 237  NG2026_Grep01740                       0.00%    passed     99.59%
+ 238  NG2026_Grep01743                       0.00%    passed     98.64%
+ 239  NG2026_Grep01746                       0.00%    passed     99.99%
+ 240  NG2026_Grep01747                       0.00%    passed     98.53%
+ 241  NG2026_Grep01751                       0.00%    passed     99.16%
+ 242  NG2026_Grep01752                       0.00%    passed     98.72%
+ 243  NG2026_Grep01756                       0.00%    passed     99.99%
+ 244  NG2026_Grep01759                       0.00%    passed     98.12%
+ 245  NG2026_Grep01767                       0.00%    passed     99.11%
+ 246  NG2026_Grep01768                       0.00%    passed     97.42%
+ 247  NG2026_Grep01769                       0.00%    passed     99.12%
+ 248  NG2026_Grep01770                       0.00%    passed     99.60%
+ 249  NG2026_Grep01771                       0.00%    passed     99.63%
+ 250  NG2026_Grep01772                       0.00%    passed     99.33%
+ 251  NG2026_Grep01775                       0.00%    passed     99.47%
+ 252  NG2026_Grep01786                       0.00%    passed     99.41%
+ 253  NG2026_Grep01834                       0.00%    passed     99.58%
+ 254  NG2026_Grep01838                       0.00%    passed     99.14%
+ 255  NG2026_Grep01846                       0.00%    passed     99.19%
+ 256  NG2026_Grep01851                       0.00%    passed     99.81%
+ 257  NG2026_Grep01856                       0.00%    passed     96.41%
+ 258  NG2026_Grep01864                       0.00%    passed     99.22%
+ 259  NG2026_Grep01865                       0.00%    passed     98.38%
+ 260  NG2026_Grep01875                       0.00%    passed     98.12%
+ 261  NG2026_Grep01882                       0.00%    passed     99.61%
+ 262  NG2026_Grep01884                       0.00%    passed     99.21%
+ 263  NG2026_Grep01885                       0.00%    passed     93.08%
+ 264  NG2026_Grep01886                       0.00%    passed     96.44%
+ 265  NG2026_Grep01899                       0.00%    passed     98.26%
+ 266  NG2026_Grep01906                       0.00%    passed     97.89%
+ 267  NG2026_Grep01915                       0.00%    passed     99.43%
+ 268  NG2026_Grep01941                       0.00%    passed     99.78%
+ 269  NG2026_Grep01944                       0.10%    passed     99.27%
+ 270  NG2026_Grep01951                       0.21%    passed     98.67%
+ 271  NG2026_Grep01962                       0.00%    passed     97.00%
+ 272  NG2026_Grep01971                       0.00%    passed     99.45%
+ 273  NG2026_Grep01976                       0.10%    passed     97.86%
+ 274  NG2026_Grep01979                       0.00%    passed     99.92%
+ 275  NG2026_Grep01985                       0.00%    passed     99.68%
+ 276  NG2026_Grep02014                       0.52%    passed     99.63%
+ 277  NG2026_Grep02021                       0.00%    passed     99.18%
+ 278  NG2026_Grep02033                       0.00%    passed     96.88%
+ 279  NG2026_Grep02059                       0.00%    passed     99.58%
+ 280  NG2026_Grep02060                       0.00%    passed     99.87%
+ 281  NG2026_Grep02075                       0.00%    passed     99.35%
+ 282  NG2026_Grep02081                       0.00%    passed     88.83%
+ 283  NG2026_Grep02084                       0.00%    passed     98.47%
+ 284  NG2026_Grep02093                       4.76%    passed     94.57%
+ 285  NG2026_Grep02113                       0.00%    passed     95.25%
+ 286  NG2026_Grep02132                       0.00%    passed     97.66%
+ 287  NG2026_Grep02170                       1.04%    passed     42.04%
+ 288  NG2026_Grep02186                       0.00%    passed     98.05%
+ 289  NG2026_Grep02190                       0.00%    passed     99.45%
+ 290  NG2026_Grep02193                       0.00%    passed     94.90%
+ 291  NG2026_Grep02221                       0.00%    passed     99.89%
+ 292  NG2026_Grep02238                       0.00%    passed     98.18%
+ 293  NG2026_Grep02251                       0.00%    passed     98.57%
+ 294  NG2026_Grep02266                       0.00%    passed     84.94%
+ 295  NG2026_Grep02268                       0.00%    passed     98.16%
+ 296  NG2026_Grep02274                       0.00%    passed     99.79%
+ 297  NG2026_Grep02277                       0.00%    passed     99.21%
+ 298  NG2026_Grep02282                       0.00%    passed     98.40%
+ 299  NG2026_Grep02290                       0.52%    passed     96.62%
+ 300  NG2026_Grep02292                       0.00%    passed     89.98%
+ 301  NG2026_Grep02297                       0.00%    passed     99.99%
+ 302  NG2026_Grep02304                       4.66%    passed     90.01%
+ 303  NG2026_Grep02316                       0.00%    passed     99.85%
+ 304  NG2026_Grep02317                       0.00%    passed     88.83%
+ 305  NG2026_Grep02332                       0.00%    passed     99.60%
+ 306  NG2026_Grep02336                       0.00%    passed     97.06%
+ 307  NG2026_Grep02356                       0.00%    passed     96.88%
+ 308  NG2026_Grep02374                       0.00%    passed     98.26%
+ 309  NG2026_Grep02383                       0.00%    passed     99.78%
+ 310  NG2026_Grep02384                       0.00%    passed     99.91%
+ 311  NG2026_Grep02385                       4.35%    passed     98.60%
+ 312  NG2026_Grep02392                       0.10%    passed     99.90%
+ 313  NG2026_Grep02393                       0.00%    passed     99.60%
+ 314  NG2026_Grep02395                       0.00%    passed     99.70%
+ 315  NG2026_Grep02396                       0.00%    passed     84.85%
+ 316  NG2026_Grep02399                       0.10%    passed     79.07%
+ 317  NG2026_Grep02403                       0.10%    passed     99.09%
+ 318  NG2026_Grep02405                       0.00%    passed     98.57%
+ 319  NG2026_Grep02406                       0.00%    passed     99.13%
+ 320  NG2026_Grep02415                       0.00%    passed     99.92%
+ 321  NG2026_Grep02416                       0.00%    passed     99.05%
+ 322  NG2026_Grep02427                       0.00%    passed     99.63%
+ 323  NG2026_Grep02428                       0.00%    passed     98.25%
+ 324  NG2026_Grep02430                       4.97%    passed     97.81%
+ 325  NG2026_Grep02431                       0.00%    passed     99.84%
+ 326  NG2026_Grep02434                       0.00%    passed     98.95%
+ 327  NG2026_Grep02439                       3.21%    passed     94.68%
+ 328  NG2026_Grep02440                       0.00%    passed     99.79%
+ 329  NG2026_Grep02444                       0.00%    passed     99.88%
+ 330  NG2026_Grep02445                       0.00%    passed     97.59%
+ 331  NG2026_Grep02449                       0.00%    passed     99.39%
+ 332  NG2026_Grep02450                       0.31%    passed     99.96%
+ 333  NG2026_Grep02451                       3.21%    passed     97.38%
+ 334  NG2026_Grep02455                       0.00%    passed     99.03%
+ 335  NG2026_Grep02460                       0.00%    passed     96.95%
+ 336  NG2026_Grep02463                       0.00%    passed     98.09%
+ 337  NG2026_Grep02479                       0.00%    passed     79.27%
+ 338  NG2026_Grep02480                       0.00%    passed     99.07%
+ 339  NG2026_Grep02482                       0.00%    passed     99.79%
+ 340  NG2026_Grep02486                       0.00%    passed     99.88%
+ 341  NG2026_Grep02487                       0.00%    passed     99.92%
+ 342  NG2026_Grep02498                       0.00%    passed     91.94%
+ 343  NG2026_Grep02506                       0.00%    passed     86.39%
+ 344  NG2026_Grep02513                       0.00%    passed     99.23%
+ 345  NG2026_Grep02514                       0.00%    passed     94.85%
+ 346  NG2026_Grep02539                       0.00%    passed     99.04%
+ 347  NG2026_Grep02542                       0.10%    passed     96.05%
+ 348  NG2026_Grep02545                       0.00%    passed     99.99%
+ 349  NG2026_Grep02550                       0.00%    passed     98.11%
+ 350  NG2026_Grep02554                       0.00%    passed     99.85%
+ 351  NG2026_Grep02568                       0.00%    passed     98.40%
+ 352  NG2026_Grep02575                       0.00%    passed     99.47%
+ 353  NG2026_Grep02584                       0.00%    passed     99.21%
+ 354  NG2026_Grep02595                       0.00%    passed     97.14%
+ 355  NG2026_Grep02597                       0.00%    passed     99.22%
+ 356  NG2026_Grep02612                       0.00%    passed     95.92%
+ 357  NG2026_Grep02617                       0.00%    passed     99.74%
+ 358  NG2026_Grep02620                       0.00%    passed     99.57%
+ 359  NG2026_Grep02628                       0.00%    passed     97.28%
+ 360  NG2026_Grep02640                       0.00%    passed     96.08%
+ 361  NG2026_Grep02658                       0.00%    passed     99.81%
+ 362  NG2026_Grep02668                       0.00%    passed     99.63%
+ 363  NG2026_Grep02703                       0.00%    passed     96.78%
+ 364  NG2026_Grep02746                       0.00%    passed     98.84%
+ 365  NG2026_Grep02761                       0.00%    passed     93.78%
+ 366  NG2026_Grep02765                       0.00%    passed     98.65%
+ 367  NG2026_Grep02768                       0.00%    passed     99.38%
+ 368  NG2026_Grep02769                       0.00%    passed     97.12%
+ 369  NG2026_Grep02791                       0.00%    passed     99.46%
+ 370  NG2026_Grep02817                       0.00%    passed     99.13%
+ 371  NG2026_Grep02828                       0.00%    passed     98.24%
+ 372  NG2026_Grep02843                       1.04%    passed     99.24%
+ 373  NG2026_Grep02853                       0.00%    passed     97.83%
+ 374  NG2026_Grep02854                       0.00%    passed     97.79%
+ 375  NG2026_Grep02855                       0.10%    passed     95.52%
+ 376  NG2026_Grep02861                       0.41%    passed     97.52%
+ 377  NG2026_Grep02863                       0.00%    passed     99.21%
+ 378  NG2026_Grep02866                       0.00%    passed     99.61%
+ 379  NG2026_Grep02874                       0.00%    passed     99.79%
+ 380  NG2026_Grep02875                       0.00%    passed     93.96%
+ 381  NG2026_Grep02895                       1.35%    passed     99.24%
+ 382  NG2026_Grep02904                       0.93%    passed     99.47%
+ 383  NG2026_Grep02905                       2.59%    passed     99.91%
+ 384  NG2026_Grep02923                       4.04%    passed     99.95%
+ 385  NG2026_Grep02933                       0.00%    passed     97.46%
+ 386  NG2026_Grep02940                       0.00%    passed     97.07%
+ 387  NG2026_Grep02945                       0.00%    passed     99.22%
+ 388  NG2026_Grep02947                       0.00%    passed     98.16%
+ 389  NG2026_Grep02972                       0.00%    passed     99.13%
+ 390  NG2026_Grep02979                       0.00%    passed     94.02%
+ 391  NG2026_Grep02995                       0.00%    passed     96.85%
+ 392  NG2026_Grep02996                       0.00%    passed     98.38%
+ 393  NG2026_Grep02997                       0.10%    passed     95.52%
+ 394  NG2026_Grep03033                       0.00%    passed     98.47%
+ 395  NG2026_Grep03049                       0.00%    passed     99.19%
+ 396  NG2026_Grep03056                       0.00%    passed     96.21%
+ 397  NG2026_Grep03057                       0.00%    passed     95.97%
+ 398  NG2026_Grep03067                       0.00%    passed     98.82%
+ 399  NG2026_Grep03069                       4.66%    passed     85.94%
+ 400  NG2026_Grep03070                       0.00%    passed     99.93%
+ 401  NG2026_Grep03072                       4.66%    passed     94.90%
+ 402  NG2026_Grep03077                       0.00%    passed     99.86%
+ 403  NG2026_Grep03080                       0.00%    passed     99.93%
+ 404  NG2026_Grep03088                       0.00%    passed     98.28%
+ 405  NG2026_Grep03094                       0.00%    passed     99.72%
+ 406  NG2026_Grep03096                       0.00%    passed     99.16%
+ 407  NG2026_Grep03107                       0.00%    passed     98.63%
+ 408  NG2026_Grep03109                       0.00%    passed     99.53%
+ 409  NG2026_Grep03111                       0.00%    passed     96.63%
+ 410  NG2026_Grep03116                       0.00%    passed     98.97%
+ 411  NG2026_Grep03117                       0.00%    passed     99.61%
+ 412  NG2026_Grep03127                       0.21%    passed     94.71%
+ 413  NG2026_Grep03143                       0.10%    passed     74.12%
+ 414  NG2026_Grep03145                       0.00%    passed     98.92%
+ 415  NG2026_Grep03147                       0.00%    passed     99.91%
+ 416  NG2026_Grep03149                       0.00%    passed     94.56%
+ 417  NG2026_Grep03175                       0.00%    passed     98.73%
+ 418  NG2026_Grep03199                       0.00%    passed     98.28%
+ 419  NG2026_Grep03217                       0.00%    passed     72.79%
+ 420  NG2026_Grep03219                       0.00%    passed     97.83%
+ 421  NG2026_Grep03221                       0.00%    passed     98.72%
+ 422  NG2026_Grep03226                       0.00%    passed     98.28%
+ 423  NG2026_Grep03228                       0.00%    passed     98.63%
+ 424  NG2026_Grep03235                       0.00%    passed     97.62%
+ 425  NG2026_Grep03239                       0.00%    passed     99.78%
+ 426  NG2026_Grep03247                       0.00%    passed     99.61%
+ 427  NG2026_Grep03251                       0.00%    passed     99.91%
+ 428  NG2026_Grep03256                       0.00%    passed     99.82%
+ 429  NG2026_Grep03258                       0.00%    passed     99.63%
+ 430  NG2026_Grep03283                       0.00%    passed     94.04%
+ 431  NG2026_Grep03288                       0.00%    passed     99.63%
+ 432  NG2026_Grep03296                       0.00%    passed     98.28%
+ 433  NG2026_Grep03302                       0.00%    passed     94.83%
+ 434  NG2026_Grep03308                       0.00%    passed     92.70%
+ 435  NG2026_Grep03312                       0.00%    passed     99.89%
+ 436  NG2026_Grep03314                       0.00%    passed     99.68%
+ 437  NG2026_Grep03328                       0.00%    passed     99.22%
+ 438  NG2026_Grep03329                       0.00%    passed     99.24%
+ 439  NG2026_Grep03335                       0.21%    passed     98.56%
+ 440  NG2026_Grep03338                       0.00%    passed     99.33%
+ 441  NG2026_Grep03342                       0.00%    passed     89.97%
+ 442  NG2026_Grep03377                       0.00%    passed     95.45%
+ 443  NG2026_Grep03384                       0.00%    passed     99.89%
+ 444  NG2026_Grep03411                       0.00%    passed     98.38%
+ 445  NG2026_Grep03424                       0.00%    passed     98.47%
+ 446  NG2026_Grep03426                       0.10%    passed     98.69%
+ 447  NG2026_Grep03440                       0.10%    passed     97.62%
+ 448  NG2026_Grep03442                       0.10%    passed     97.62%
+ 449  NG2026_Grep03445                       0.10%    passed     93.48%
+ 450  NG2026_Grep03447                       0.10%    passed     98.69%
+ 451  NG2026_Grep03449                       0.10%    passed     98.75%
+ 452  NG2026_Grep03454                       0.10%    passed     99.21%
+ 453  NG2026_Grep03464                       1.24%    passed     40.44%
+ 454  NG2026_Grep03465                       0.00%    passed     98.57%
+ 455  NG2026_Grep03467                       0.00%    passed     97.52%
+ 456  NG2026_Grep03512                       0.00%    passed     88.54%
+ 457  NG2026_Grep03532                       0.00%    passed     99.78%
+ 458  NG2026_Grep03534                       0.00%    passed     99.92%
+ 459  NG2026_Grep03538                       0.00%    passed     99.02%
+ 460  NG2026_Grep03539                       0.00%    passed     99.79%
+ 461  NG2026_Grep03544                       3.62%    passed     96.98%
+ 462  NG2026_Grep03561                       0.00%    passed     99.74%
+ 463  NG2026_Grep03571                       3.11%    passed     87.65%
+ 464  NG2026_Grep03577                       0.00%    passed     99.44%
+ 465  NG2026_Grep03579                       0.00%    passed     93.17%
+ 466  NG2026_Grep03580                       0.00%    passed     99.47%
+ 467  NG2026_Grep03599                       0.00%    passed     82.17%
+ 468  NG2026_Grep03616                       0.00%    passed     98.84%
+ 469  NG2026_Grep03619                       0.00%    passed     99.72%
+ 470  NG2026_Grep03622                       0.00%    passed     78.41%
+ 471  NG2026_Grep03627                       0.10%    passed     98.71%
+ 472  NG2026_Grep03629                       0.00%    passed     83.28%
+ 473  NG2026_Grep03630                       0.00%    passed     87.28%
+ 474  NG2026_Grep03633                       0.00%    passed     74.23%
+ 475  NG2026_Grep03640                       0.00%    passed     83.15%
+ 476  NG2026_Grep03656                       0.00%    passed     99.21%
+ 477  NG2026_Grep03664                       0.00%    passed     99.22%
+ 478  NG2026_Grep03667                       0.00%    passed     99.79%
+ 479  NG2026_Grep03673                       0.00%    passed     99.71%
+ 480  NG2026_Grep03678                       0.10%    passed     99.37%
+ 481  NG2026_Grep03679                       0.00%    passed     87.28%
+ 482  NG2026_Grep03688                       0.00%    passed     86.93%
+ 483  NG2026_Grep03689                       0.00%    passed     99.58%
+ 484  NG2026_Grep03697                       0.10%    passed     74.05%
+ 485  NG2026_Grep03711                       0.10%    passed     99.41%
+ 486  NG2026_Grep03726                       0.00%    passed     99.41%
+ 487  NG2026_Grep03729                       0.00%    passed     88.75%
+ 488  NG2026_Grep03730                       0.00%    passed     99.88%
+ 489  NG2026_Grep03733                       0.00%    passed     74.74%
+ 490  NG2026_Grep03738                       0.00%    passed     82.08%
+ 491  NG2026_Grep03744                       0.00%    passed     99.92%
+ 492  NG2026_Grep03745                       0.00%    passed     73.83%
+ 493  NG2026_Grep03753                       0.00%    passed     87.28%
+ 494  NG2026_Grep03756                       0.00%    passed     99.40%
+ 495  NG2026_Grep03770                       0.10%    passed     99.96%
+ 496  NG2026_Grep03773                       0.00%    passed     99.37%
+ 497  NG2026_Grep03779                       0.00%    passed     68.80%
+ 498  NG2026_Grep03780                       0.00%    passed     99.97%
+ 499  NG2026_Grep03785                       0.52%    passed     99.93%
+ 500  NG2026_Grep03803                       0.10%    passed     98.59%
+ 501  NG2026_Grep03810                       0.00%    passed     86.26%
+ 502  NG2026_Grep03826                       0.00%    passed     80.79%
+ 503  NG2026_Grep03829                       0.00%    passed     98.05%
+ 504  NG2026_Grep03838                       0.00%    passed     98.92%
+ 505  NG2026_Grep03848                       0.10%    passed     84.41%
+ 506  NG2026_Grep03849                       0.10%    passed     98.97%
+ 507  NG2026_Grep03851                       0.00%    passed     99.05%
+ 508  NG2026_Grep03852                       0.00%    passed     99.24%
+ 509  NG2026_Grep03854                       0.00%    passed     98.26%
+ 510  NG2026_Grep03855                       0.00%    passed     89.77%
+ 511  NG2026_Grep03858                       0.00%    passed     96.43%
+ 512  NG2026_Grep03859                       0.00%    passed     98.50%
+ 513  NG2026_Grep03862                       0.00%    passed     87.22%
+ 514  NG2026_Grep03863                       0.00%    passed     99.86%
+ 515  NG2026_Grep03866                       0.10%    passed     99.53%
+ 516  NG2026_Grep03868                       0.10%    passed     99.50%
+ 517  NG2026_Grep03869                       0.00%    passed     98.38%
+ 518  NG2026_Grep03871                       0.00%    passed     99.61%
+ 519  NG2026_Grep03876                       0.00%    passed     99.68%
+ 520  NG2026_Grep03877                       0.10%    passed     79.07%
+ 521  NG2026_Grep03878                       0.10%    passed     99.59%
+ 522  NG2026_Grep03880                       0.10%    passed     99.09%
+ 523  NG2026_Grep03893                       0.00%    passed     99.63%
+ 524  NG2026_Grep03895                       0.00%    passed     99.63%
+ 525  NG2026_Grep03896                       0.00%    passed     99.63%
+ 526  NG2026_Grep03898                       0.00%    passed     99.82%
+ 527  NG2026_Grep03899                       0.00%    passed     99.63%
+ 528  NG2026_Grep03900                       0.00%    passed     99.79%
+ 529  NG2026_Grep03901                       0.00%    passed     99.70%
+ 530  NG2026_Grep03904                       0.00%    passed     98.17%
+ 531  NG2026_Grep03905                       0.00%    passed     98.38%
+ 532  NG2026_Grep03908                       0.00%    passed     97.04%
+ 533  NG2026_Grep03912                       0.00%    passed     99.96%
+ 534  NG2026_Grep03913                       0.00%    passed     99.81%
+ 535  NG2026_Grep03916                       0.00%    passed     99.60%
+ 536  NG2026_Grep03917                       0.00%    passed     99.70%
+ 537  NG2026_Grep03920                       0.00%    passed     98.50%
+ 538  NG2026_Grep03922                       0.00%    passed     98.50%
+ 539  NG2026_Grep03923                       0.00%    passed     99.45%
+ 540  NG2026_Grep03926                       0.00%    passed     99.63%
+ 541  NG2026_Grep03928                       0.10%    passed     99.40%
+ 542  NG2026_Grep03930                       0.00%    passed     97.93%
+ 543  NG2026_Grep03935                       0.00%    passed     97.83%
+ 544  NG2026_Grep03944                       0.00%    passed     99.79%
+ 545  NG2026_Grep03945                       0.00%    passed     97.19%
+ 546  NG2026_Grep03951                       0.00%    passed     98.89%
+ 547  NG2026_Grep03960                       0.00%    passed     82.17%
+ 548  NG2026_Grep03969                       0.00%    passed     96.70%
+ 549  NG2026_Grep03980                       0.00%    passed     99.61%
+ 550  NG2026_Grep03992                       0.00%    passed     99.87%
+ 551  NG2026_Grep03993                       0.00%    passed     88.26%
+ 552  NG2026_Grep03994                       0.00%    passed     99.97%
+ 553  NG2026_Grep03996                       0.00%    passed     99.42%
+ 554  NG2026_Grep03997                       0.00%    passed     98.28%
+ 555  NG2026_Grep04000                       0.00%    passed     99.93%
+ 556  NG2026_Grep04007                       0.00%    passed     98.28%
+ 557  NG2026_Grep04009                       0.10%    passed     96.40%
+ 558  NG2026_Grep04015                       0.00%    passed     99.60%
+ 559  NG2026_Grep04021                       0.00%    passed     99.00%
+ 560  NG2026_Grep04026                       0.00%    passed     91.98%
+ 561  NG2026_Grep04032                       0.00%    passed     95.73%
+ 562  NG2026_Grep04033                       0.00%    passed     86.03%
+ 563  NG2026_Grep04035                       0.00%    passed     98.52%
+ 564  NG2026_Grep04038                       0.00%    passed     76.67%
+ 565  NG2026_Grep04040                       0.00%    passed     98.28%
+ 566  NG2026_Grep04044                       0.00%    passed     96.84%
+ 567  NG2026_Grep04046                       0.10%    passed     96.93%
+ 568  NG2026_Grep04048                       0.00%    passed     97.06%
+ 569  NG2026_Grep04049                       0.00%    passed     99.53%
+ 570  NG2026_Grep04059                       0.00%    passed     95.14%
+ 571  NG2026_Grep04060                       0.00%    passed     95.37%
+ 572  NG2026_Grep04062                       0.00%    passed     66.07%
+ 573  NG2026_Grep04066                       0.00%    passed     97.12%
+ 574  NG2026_Grep04067                       0.00%    passed     99.97%
+ 575  NG2026_Grep04071                       0.10%    passed     99.76%
+ 576  NG2026_Grep04072                       0.00%    passed     96.48%
+ 577  NG2026_Grep04079                       0.00%    passed     99.63%
+ 578  NG2026_Grep04083                       0.00%    passed     99.39%
+ 579  NG2026_Grep04089                       0.00%    passed     99.63%
+ 580  NG2026_Grep04095                       0.00%    passed     99.58%
+ 581  NG2026_Grep04101                       0.00%    passed     99.68%
+ 582  NG2026_Grep04109                       0.00%    passed     98.93%
+ 583  NG2026_Grep04113                       0.00%    passed     95.73%
+ 584  NG2026_Grep04115                       0.00%    passed     99.22%
+ 585  NG2026_Grep04116                       0.00%    passed     91.20%
+ 586  NG2026_Grep04118                       0.00%    passed     98.50%
+ 587  NG2026_Grep04145                       0.00%    passed     98.24%
+ 588  NG2026_Grep04148                       0.10%    passed     97.33%
+ 589  NG2026_Grep04155                       0.00%    passed     92.58%
+ 590  NG2026_Grep04163                       0.00%    passed     98.42%
+ 591  NG2026_Grep04164                       0.00%    passed     99.07%
+ 592  NG2026_Grep04167                       0.10%    passed     99.90%
+ 593  NG2026_Grep04173                       0.00%    passed     97.64%
+ 594  NG2026_Grep04179                       0.00%    passed     96.69%
+ 595  NG2026_Grep04180                       0.00%    passed     99.97%
+ 596  NG2026_Grep04184                       0.00%    passed     99.14%
+ 597  NG2026_Grep04189                       0.00%    passed     99.45%
+ 598  NG2026_Grep04196                       0.00%    passed     97.19%
+ 599  NG2026_Grep04200                       0.00%    passed     94.14%
+ 600  NG2026_Grep04207                       0.00%    passed     98.16%
+ 601  NG2026_Grep04211                       0.00%    passed     98.84%
+ 602  NG2026_Grep04213                       0.00%    passed     98.47%
+ 603  NG2026_Grep04215                       0.00%    passed     99.95%
+ 604  NG2026_Grep04268                       0.00%    passed     99.68%
+ 605  NG2026_Grep04276                       0.00%    passed     97.92%
+ 606  NG2026_Grep04277                       0.00%    passed     98.12%
+ 607  NG2026_Grep04279                       0.00%    passed     98.17%
+ 608  NG2026_Grep04282                       0.00%    passed     99.55%
+ 609  NG2026_Grep04286                       0.00%    passed     99.94%
+ 610  NG2026_Grep04288                       0.00%    passed     93.27%
+ 611  NG2026_Grep04289                       0.00%    passed     96.69%
+ 612  NG2026_Grep04294                       0.00%    passed     99.98%
+ 613  NG2026_Grep04299                       0.00%    passed     94.65%
+ 614  NG2026_Grep04302                       0.00%    passed     99.93%
+ 615  NG2026_Grep04306                       4.66%    passed     93.46%
+ 616  NG2026_Grep04308                       0.00%    passed     96.29%
+ 617  NG2026_Grep04310                       0.00%    passed     97.19%
+ 618  NG2026_Grep04311                       4.45%    passed     98.27%
+ 619  NG2026_Grep04312                       0.00%    passed     95.54%
+ 620  NG2026_Grep04316                       0.00%    passed     99.21%
+ 621  NG2026_Grep04319                       0.00%    passed     98.78%
+ 622  NG2026_Grep04324                       0.00%    passed     99.88%
+ 623  NG2026_Grep04328                       0.00%    passed     99.99%
+ 624  NG2026_Grep04335                       0.00%    passed     99.79%
+ 625  NG2026_Grep04341                       0.00%    passed     99.63%
+ 626  NG2026_Grep04343                       4.66%    passed     97.04%
+ 627  NG2026_Grep04351                       4.66%    passed     97.52%
+ 628  NG2026_Grep04353                       4.66%    passed     98.33%
+ 629  NG2026_Grep04357                       0.00%    passed     99.97%
+ 630  NG2026_Grep04359                       4.66%    passed     99.90%
+ 631  NG2026_Grep04362                       0.00%    passed     99.24%
+ 632  NG2026_Grep04363                       0.00%    passed     99.79%
+ 633  NG2026_Grep04365                       4.55%    passed     83.67%
+ 634  NG2026_Grep04369                       0.00%    passed     99.02%
+ 635  NG2026_Grep04370                       0.00%    passed     99.98%
+ 636  NG2026_Grep04375                       4.66%    passed     94.46%
+ 637  NG2026_Grep04376                       4.55%    passed     98.00%
+ 638  NG2026_Grep04378                       4.55%    passed     96.68%
+ 639  NG2026_Grep04380                       0.00%    passed     99.97%
+ 640  NG2026_Grep04384                       0.00%    passed     98.05%
+ 641  NG2026_Grep04385                       0.00%    passed     95.13%
+ 642  NG2026_Grep04387                       0.00%    passed     95.35%
+ 643  NG2026_Grep04389                       0.00%    passed     92.93%
+ 644  NG2026_Grep04399                       0.00%    passed     92.02%
+ 645  NG2026_Grep04400                       0.00%    passed     90.93%
+ 646  NG2026_Grep04404                       0.00%    passed     98.50%
+ 647  NG2026_Grep04413                       0.00%    passed     96.84%
+ 648  NG2026_Grep04414                       0.10%    passed     98.69%
+ 649  NG2026_Grep04416                       0.00%    passed     98.74%
+ 650  NG2026_Grep04424                       0.00%    passed     99.55%
+ 651  NG2026_Grep04426                       0.10%    passed     99.39%
+ 652  NG2026_Grep04439                       0.00%    passed     99.45%
+ 653  NG2026_Grep04444                       0.10%    passed     98.89%
+ 654  NG2026_Grep04446                       0.00%    passed     96.69%
+ 655  NG2026_Grep04451                       0.00%    passed     98.05%
+ 656  NG2026_Grep04461                       0.21%    passed     91.36%
+ 657  NG2026_Grep04462                       0.00%    passed     98.74%
+ 658  NG2026_Grep04477                       0.00%    passed     98.31%
+ 659  NG2026_Grep04485                       0.00%    passed     98.09%
+ 660  NG2026_Grep04486                       0.10%    passed     98.59%
+ 661  NG2026_Grep04489                       0.10%    passed     99.81%
+ 662  NG2026_Grep04490                       0.00%    passed     97.88%
+ 663  NG2026_Grep04501                       0.00%    passed     94.83%
+ 664  NG2026_Grep04503                       0.00%    passed     99.16%
+ 665  NG2026_Grep04504                       0.10%    passed     97.44%
+ 666  NG2026_Grep04511                       0.00%    passed     97.26%
+ 667  NG2026_Grep04512                       0.00%    passed     97.94%
+ 668  NG2026_Grep04514                       0.00%    passed     99.97%
+ 669  NG2026_Grep04519                       0.00%    passed     98.45%
+ 670  NG2026_Grep04521                       0.00%    passed     97.48%
+ 671  NG2026_Grep04523                       0.00%    passed     99.88%
+ 672  NG2026_Grep04530                       0.00%    passed     80.13%
+ 673  NG2026_Grep04533                       0.00%    passed     99.45%
+ 674  NG2026_Grep04543                       0.10%    passed     99.59%
+ 675  NG2026_Grep04544                       0.00%    passed     99.88%
+ 676  NG2026_Grep04557                       0.00%    passed     99.34%
+ 677  NG2026_Grep04564                       0.00%    passed     91.33%
+ 678  NG2026_Grep04567                       0.10%    passed     99.03%
+ 679  NG2026_Grep04572                       0.10%    passed     99.39%
+ 680  NG2026_Grep04576                       0.00%    passed     92.93%
+ 681  NG2026_Grep04579                       0.00%    passed     97.26%
+ 682  NG2026_Grep04582                       0.00%    passed     99.97%
+ 683  NG2026_Grep04584                       0.00%    passed     99.62%
+ 684  NG2026_Grep04589                       0.10%    passed     99.03%
+ 685  NG2026_Grep04592                       0.00%    passed     97.89%
+ 686  NG2026_Grep04596                       0.00%    passed     98.75%
+ 687  NG2026_Grep04604                       0.00%    passed     99.93%
+ 688  NG2026_Grep04605                       0.00%    passed     99.33%
+ 689  NG2026_Grep04607                       0.00%    passed     99.50%
+ 690  NG2026_Grep04609                       0.00%    passed     87.06%
+ 691  NG2026_Grep04623                       0.00%    passed     97.19%
+ 692  NG2026_Grep04627                       0.00%    passed     99.29%
+ 693  NG2026_Grep04630                       0.00%    passed     98.39%
+ 694  NG2026_Grep04633                       0.00%    passed     64.01%
+ 695  NG2026_Grep04634                       0.00%    passed     98.94%
+ 696  NG2026_Grep04635                       1.45%    passed     98.19%
+ 697  NG2026_Grep04648                       0.00%    passed     98.05%
+ 698  NG2026_Grep04669                       0.00%    passed     85.14%
+ 699  NG2026_Grep04670                       0.00%    passed     99.91%
+ 700  NG2026_Grep04672                       0.00%    passed     93.88%
+ 701  NG2026_Grep04676                       0.00%    passed     99.24%
+ 702  NG2026_Grep04678                       0.00%    passed     98.52%
+ 703  NG2026_Grep04680                       0.00%    passed     99.86%
+ 704  NG2026_Grep04682                       0.00%    passed     98.50%
+ 705  NG2026_Grep04683                       0.00%    passed     81.69%
+ 706  NG2026_Grep04686                       0.00%    passed     99.02%
+ 707  NG2026_Grep04687                       0.00%    passed     98.50%
+ 708  NG2026_Grep04688                       0.00%    passed     88.22%
+ 709  NG2026_Grep04689                       0.00%    passed     98.50%
+ 710  NG2026_Grep04691                       0.00%    passed     99.63%
+ 711  NG2026_Grep04692                       0.00%    passed     99.79%
+ 712  NG2026_Grep04694                       0.00%    passed     82.92%
+ 713  NG2026_Grep04701                       0.00%    passed     93.08%
+ 714  NG2026_Grep04702                       0.00%    passed     94.24%
+ 715  NG2026_Grep04703                       0.00%    passed     94.87%
+ 716  NG2026_Grep04716                       0.00%    passed     99.30%
+ 717  NG2026_Grep04717                       0.00%    passed     99.05%
+ 718  NG2026_Grep04718                       0.00%    passed     93.02%
+ 719  NG2026_Grep04723                       0.00%    passed     99.87%
+ 720  NG2026_Grep04726                       0.00%    passed     86.36%
+ 721  NG2026_Grep04728                       0.00%    passed     92.28%
+ 722  NG2026_Grep04742                       0.00%    passed     89.98%
+ 723  NG2026_Grep04767                       0.00%    passed     98.68%
+ 724  NG2026_Grep04769                       0.00%    passed     99.22%
+ 725  NG2026_Grep04777                       0.00%    passed     99.79%
+ 726  NG2026_Grep04801                       0.00%    passed     99.39%
+ 727  NG2026_Grep04802                       0.00%    passed     99.79%
+ 728  NG2026_Grep04816                       0.00%    passed     91.14%
+ 729  NG2026_Grep04824                       0.00%    passed     99.94%
+ 730  NG2026_Grep04828                       0.00%    passed     97.91%
+ 731  NG2026_Grep04829                       0.00%    passed     73.07%
+ 732  NG2026_Grep04835                       0.00%    passed     99.64%
+ 733  NG2026_Grep04844                       0.00%    passed     96.82%
+ 734  NG2026_Grep04850                       0.00%    passed     94.81%
+ 735  NG2026_Grep04873                       0.00%    passed     96.48%
+ 736  NG2026_Grep04874                       0.00%    passed     99.74%
+ 737  NG2026_Grep04878                       0.00%    passed     93.08%
+ 738  NG2026_Grep04887                       0.00%    passed     99.93%
+ 739  NG2026_Grep04894                       0.00%    passed     99.94%
+ 740  NG2026_Grep04904                       0.00%    passed     95.40%
+ 741  NG2026_Grep04908                       0.00%    passed     98.08%
+ 742  NG2026_Grep04921                       0.00%    passed     99.82%
+ 743  NG2026_Grep04923                       0.00%    passed     95.93%
+ 744  NG2026_Grep04929                       0.00%    passed     86.64%
+ 745  NG2026_Grep04931                       0.00%    passed     97.86%
+ 746  NG2026_Grep04938                       0.00%    passed     99.63%
+ 747  NG2026_Grep04954                       0.00%    passed     84.10%
+ 748  NG2026_Grep04963                       0.00%    passed     99.52%
+ 749  NG2026_Grep04981                       0.00%    passed     99.34%
+ 750  NG2026_Grep04983                       0.00%    passed     83.30%
+ 751  NG2026_Grep04988                       0.00%    passed     99.43%
+ 752  NG2026_Grep05008                       0.00%    passed     97.59%
+ 753  NG2026_Grep05021                       0.00%    passed     99.64%
+ 754  NG2026_Grep05040                       0.00%    passed     96.99%
+ 755  NG2026_Grep05043                       0.00%    passed     96.86%
+ 756  NG2026_Grep05049                       0.00%    passed     98.16%
+ 757  NG2026_Grep05067                       0.00%    passed     95.58%
+ 758  NG2026_Grep05068                       0.00%    passed     99.68%
+ 759  NG2026_Grep05071                       0.00%    passed     98.12%
+ 760  NG2026_Grep05072                       0.00%    passed     98.57%
+ 761  NG2026_Grep05073                       0.00%    passed     86.02%
+ 762  NG2026_Grep05076                       0.00%    passed     98.95%
+ 763  NG2026_Grep05079                       0.00%    passed     98.26%
+ 764  NG2026_Grep05081                       0.00%    passed     78.28%
+ 765  NG2026_Grep05083                       0.00%    passed     99.97%
+ 766  NG2026_Grep05088                       0.00%    passed     98.35%
+ 767  NG2026_Grep05090                       0.00%    passed     89.89%
+ 768  NG2026_Grep05091                       0.00%    passed     98.57%
+ 769  NG2026_Grep05092                       0.00%    passed     99.91%
+ 770  NG2026_Grep05097                       0.00%    passed     94.65%
+ 771  NG2026_Grep05104                       0.00%    passed     98.14%
+ 772  NG2026_Grep05122                       0.00%    passed     89.61%
+ 773  NG2026_Grep05124                       0.10%    passed     95.64%
+ 774  NG2026_Grep05126                       0.31%    passed     92.35%
+ 775  NG2026_Grep05127                       0.10%    passed     93.83%
+ 776  NG2026_Grep05131                       0.00%    passed     96.84%
+ 777  NG2026_Grep05138                       0.10%    passed     82.73%
+ 778  NG2026_Grep05142                       0.10%    passed     97.33%
+ 779  NG2026_Grep05143                       0.21%    passed     97.11%
+ 780  NG2026_Grep05144                       0.31%    passed     98.54%
+ 781  NG2026_Grep05150                       0.00%    passed     97.39%
+ 782  NG2026_Grep05152                       0.00%    passed     98.94%
+ 783  NG2026_Grep05153                       0.00%    passed     98.81%
+ 784  NG2026_Grep05155                       0.00%    passed     98.05%
+ 785  NG2026_Grep05157                       0.00%    passed     97.39%
+ 786  NG2026_Grep05158                       0.00%    passed     98.94%
+ 787  NG2026_Grep05163                       0.00%    passed     94.51%
+ 788  NG2026_Grep05171                       0.00%    passed     99.60%
+ 789  NG2026_Grep05172                       0.00%    passed     91.65%
+ 790  NG2026_Grep05173                       0.00%    passed     95.81%
+ 791  NG2026_Grep05176                       0.00%    passed     45.04%
+ 792  NG2026_Grep05177                       0.00%    passed     98.72%
+ 793  NG2026_Grep05181                       0.00%    passed     99.46%
+ 794  NG2026_Grep05182                       0.00%    passed     97.76%
+ 795  NG2026_Grep05183                       0.00%    passed     93.93%
+ 796  NG2026_Grep05184                       0.00%    passed     97.33%
+ 797  NG2026_Grep05185                       0.00%    passed     99.97%
+ 798  NG2026_Grep05187                       0.00%    passed     97.39%
+ 799  NG2026_Grep05199                       0.00%    passed     90.59%
+ 800  NG2026_Grep05207                       0.00%    passed     98.28%
+ 801  NG2026_Grep05211                       0.00%    passed     99.28%
+ 802  NG2026_Grep05216                       0.00%    passed     96.23%
+ 803  NG2026_Grep05229                       0.00%    passed     99.97%
+ 804  NG2026_Grep05233                       0.00%    passed     98.57%
+ 805  NG2026_Grep05240                       0.00%    passed     98.39%
+ 806  NG2026_Grep05245                       0.00%    passed     98.97%
+ 807  NG2026_Grep05250                       0.00%    passed     99.48%
+ 808  NG2026_Grep05251                       0.00%    passed     50.49%
+ 809  NG2026_Grep05272                       0.00%    passed     99.29%
+ 810  NG2026_Grep05277                       0.00%    passed     51.04%
+ 811  NG2026_Grep05288                       0.00%    passed     99.43%
+ 812  NG2026_Grep05291                       0.00%    passed     99.29%
+ 813  NG2026_Grep05294                       0.00%    passed     50.99%
+ 814  NG2026_Grep05295                       0.00%    passed     98.28%
+ 815  NG2026_Grep05297                       0.00%    passed     99.21%
+ 816  NG2026_Grep05302                       0.00%    passed     99.61%
+ 817  NG2026_Grep05303                       0.00%    passed     50.63%
+ 818  NG2026_Grep05319                       0.00%    passed     99.91%
+ 819  NG2026_Grep05322                       0.00%    passed     98.51%
+ 820  NG2026_Grep05323                       0.00%    passed     98.92%
+ 821  NG2026_Grep05335                       0.00%    passed     97.05%
+ 822  NG2026_Grep05339                       0.00%    passed     99.71%
+ 823  NG2026_Grep05356                       0.00%    passed     45.04%
+ 824  NG2026_Grep05358                       0.00%    passed     80.81%
+ 825  NG2026_Grep05360                       0.00%    passed     99.72%
+ 826  NG2026_Grep05362                       0.00%    passed     99.94%
+ 827  NG2026_Grep05365                       0.00%    passed     50.99%
+ 828  NG2026_Grep05366                       0.00%    passed     97.89%
+ 829  NG2026_Grep05368                       0.00%    passed     45.55%
+ 830  NG2026_Grep05377                       0.00%    passed     56.63%
+ 831  NG2026_Grep05380                       0.00%    passed     50.63%
+ 832  NG2026_Grep05390                       0.00%    passed     98.92%
+ 833  NG2026_Grep05393                       0.00%    passed     99.44%
+ 834  NG2026_Grep05408                       0.00%    passed     99.80%
+ 835  NG2026_Grep05409                       0.00%    passed     99.38%
+ 836  NG2026_Grep05416                       0.00%    passed     99.91%
+ 837  NG2026_Grep05429                       0.00%    passed     99.79%
+ 838  NG2026_Grep05430                       0.00%    passed     98.84%
+ 839  NG2026_Grep05443                       0.00%    passed     98.54%
+ 840  NG2026_Grep05456                       0.00%    passed     91.65%
+ 841  NG2026_Grep05466                       0.00%    passed     97.48%
+ 842  NG2026_Grep05467                       0.00%    passed     99.79%
+ 843  NG2026_Grep05494                       0.00%    passed     98.47%
+ 844  NG2026_Grep05498                       0.00%    passed     99.99%
+ 845  NG2026_Grep05504                       0.00%    passed     87.93%
+ 846  NG2026_Grep05528                       0.00%    passed     99.97%
+ 847  NG2026_Grep05529                       0.00%    passed     98.89%
+ 848  NG2026_Grep05530                       0.00%    passed     97.50%
+ 849  NG2026_Grep05531                       0.00%    passed     97.92%
+ 850  NG2026_Grep05532                       0.00%    passed     88.43%
+ 851  NG2026_Grep05533                       0.00%    passed     96.98%
+ 852  NG2026_Grep05552                       0.00%    passed     99.68%
+ 853  NG2026_Grep05553                       0.00%    passed     99.55%
+ 854  NG2026_Grep05560                       0.00%    passed     99.91%
+ 855  NG2026_Grep05564                       0.00%    passed     97.93%
+ 856  NG2026_Grep05570                       0.00%    passed     89.77%
+ 857  NG2026_Grep05587                       0.00%    passed     99.55%
+ 858  NG2026_Grep05589                       0.00%    passed     99.07%
+ 859  NG2026_Grep05590                       0.00%    passed     99.51%
+ 860  NG2026_Grep05591                       0.00%    passed     99.79%
+ 861  NG2026_Grep05594                       0.00%    passed     99.55%
+ 862  NG2026_Grep05595                       0.10%    passed     99.90%
+ 863  NG2026_Grep05604                       0.10%    passed     99.51%
+ 864  NG2026_Grep05609                       0.00%    passed     99.82%
+ 865  NG2026_Grep05623                       0.00%    passed     99.99%
+ 866  NG2026_Grep05624                       0.00%    passed     99.97%
+ 867  NG2026_Grep05625                       0.00%    passed     99.92%
+ 868  NG2026_Grep05626                       0.00%    passed     88.38%
+ 869  NG2026_Grep05627                       0.00%    passed     95.81%
+ 870  NG2026_Grep05637                       0.00%    passed     99.94%
+ 871  NG2026_Grep05657                       0.00%    passed     98.50%
+ 872  NG2026_Grep05660                       0.00%    passed     84.65%
+ 873  NG2026_Grep05663                       0.00%    passed     99.45%
+ 874  NG2026_Grep05670                       0.00%    passed     97.07%
+ 875  NG2026_Grep05671                       0.00%    passed     99.54%
+ 876  NG2026_Grep05673                       0.00%    passed     99.61%
+ 877  NG2026_Grep05674                       0.00%    passed     99.41%
+ 878  NG2026_Grep05680                       0.00%    passed     99.79%
+ 879  NG2026_Grep05683                       0.00%    passed     94.06%
+ 880  NG2026_Grep05709                       0.00%    passed     94.61%
+ 881  NG2026_Grep05719                       0.00%    passed     90.15%
+ 882  NG2026_Grep05724                       0.00%    passed     96.27%
+ 883  NG2026_Grep05758                       0.10%    passed     99.71%
+ 884  NG2026_Grep05759                       0.00%    passed     98.78%
+ 885  NG2026_Grep05760                       0.10%    passed     99.15%
+ 886  NG2026_Grep05781                       0.00%    passed     97.59%
+ 887  NG2026_Grep05782                       0.00%    passed     98.50%
+ 888  NG2026_Grep05784                       0.00%    passed     95.44%
+ 889  NG2026_Grep05787                       0.00%    passed     98.50%
+ 890  NG2026_Grep05789                       0.00%    passed     98.14%
+ 891  NG2026_Grep05795                       0.10%    passed     98.69%
+ 892  NG2026_Grep05800                       0.00%    passed     98.12%
+ 893  NG2026_Grep05802                       0.00%    passed     94.57%
+ 894  NG2026_Grep05803                       0.00%    passed     94.01%
+ 895  NG2026_Grep05805                       0.00%    passed     94.84%
+ 896  NG2026_Grep05806                       0.00%    passed     95.93%
+ 897  NG2026_Grep05808                       0.00%    passed     99.99%
+ 898  NG2026_Grep05814                       0.00%    passed     92.71%
+ 899  NG2026_Grep05818                       0.00%    passed     82.17%
+ 900  NG2026_Grep05825                       0.00%    passed     97.07%
+ 901  NG2026_Grep05834                       0.00%    passed     99.00%
+ 902  NG2026_Grep05838                       0.00%    passed     99.63%
+ 903  NG2026_Grep05844                       0.00%    passed     86.26%
+ 904  NG2026_Grep05850                       0.00%    passed     99.72%
+ 905  NG2026_Grep05856                       0.00%    passed     98.28%
+ 906  NG2026_Grep05857                       0.00%    passed     97.34%
+ 907  NG2026_Grep05872                       0.00%    passed     96.44%
+ 908  NG2026_Grep05876                       0.00%    passed     95.37%
+ 909  NG2026_Grep05878                       0.00%    passed     97.88%
+ 910  NG2026_Grep05883                       0.00%    passed     94.59%
+ 911  NG2026_Grep05893                       0.00%    passed     94.56%
+ 912  NG2026_Grep05903                       0.00%    passed     98.17%
+ 913  NG2026_Grep05931                       0.00%    passed     92.77%
+ 914  NG2026_Grep05937                       0.00%    passed     99.23%
+ 915  NG2026_Grep05941                       0.00%    passed     94.14%
+ 916  NG2026_Grep05946                       0.00%    passed     96.50%
+ 917  NG2026_Grep05948                       0.00%    passed     98.63%
+ 918  NG2026_Grep05950                       0.00%    passed     70.10%
+ 919  NG2026_Grep05963                       0.00%    passed     99.79%
+ 920  NG2026_Grep05967                       0.00%    passed     99.97%
+ 921  NG2026_Grep05970                       0.00%    passed     96.61%
+ 922  NG2026_Grep05972                       0.00%    passed     97.48%
+ 923  NG2026_Grep05985                       0.00%    passed     91.98%
+ 924  NG2026_Grep05991                       0.00%    passed     94.04%
+ 925  NG2026_Grep05993                       0.00%    passed     98.97%
+ 926  NG2026_Grep05996                       0.00%    passed     98.14%
+ 927  NG2026_Grep05998                       0.00%    passed     95.35%
+ 928  NG2026_Grep05999                       0.00%    passed     99.63%
+ 929  NG2026_Grep06000                       0.00%    passed     95.35%
+ 930  NG2026_Grep06001                       0.00%    passed     97.67%
+ 931  NG2026_Grep06002                       0.00%    passed     96.82%
+ 932  NG2026_Grep06011                       0.00%    passed     99.86%
+ 933  NG2026_Grep06016                       0.00%    passed     88.68%
+ 934  NG2026_Grep06019                       0.00%    passed     91.57%
+ 935  NG2026_Grep06021                       0.00%    passed     97.05%
+ 936  NG2026_Grep06022                       0.00%    passed     98.26%
+ 937  NG2026_Grep06026                       0.00%    passed     98.42%
+ 938  NG2026_Grep06030                       0.00%    passed     94.24%
+ 939  NG2026_Grep06031                       0.00%    passed     93.32%
+ 940  NG2026_Grep06038                       0.00%    passed     98.68%
+ 941  NG2026_Grep06039                       0.00%    passed     99.87%
+ 942  NG2026_Grep06060                       0.00%    passed     97.92%
+ 943  NG2026_Grep06073                       0.10%    passed     99.48%
+ 944  NG2026_Grep06083                       0.21%    passed     99.73%
+ 945  NG2026_Grep06091                       0.10%    passed     99.46%
+ 946  NG2026_Grep06104                       0.00%    passed     99.84%
+ 947  NG2026_Grep06112                       0.00%    passed     99.92%
+ 948  NG2026_Grep06115                       0.00%    passed     99.97%
+ 949  NG2026_Grep06116                       0.00%    passed     99.63%
+ 950  NG2026_Grep06149                       0.00%    passed     99.61%
+ 951  NG2026_Grep06151                       0.00%    passed     99.63%
+ 952  NG2026_Grep06154                       0.00%    passed     98.14%
+ 953  NG2026_Grep06181                       0.00%    passed     99.99%
+ 954  NG2026_Grep06185                       0.00%    passed     96.68%
+ 955  NG2026_Grep06190                       0.00%    passed     99.79%
+ 956  NG2026_Grep06194                       0.00%    passed     99.23%
+ 957  NG2026_Grep06205                       0.00%    passed     85.44%
+ 958  NG2026_Grep06214                       0.00%    passed     99.89%
+ 959  NG2026_Grep06216                       0.00%    passed     99.84%
+ 960  NG2026_Grep06222                       0.00%    passed     96.83%
+ 961  NG2026_Grep06223                       0.00%    passed     98.42%
+ 962  NG2026_Grep06225                       0.00%    passed     83.48%
+ 963  NG2026_Grep06239                       0.00%    passed     96.41%
+ 964  NG2026_Grep06244                       0.00%    passed     96.12%
+ 965  NG2026_Grep06245                       0.00%    passed     99.91%
+ 966  NG2026_Grep06247                       0.00%    passed     97.83%
+ 967  NG2026_Grep06250                       0.00%    passed     98.28%
+ 968  NG2026_Grep06251                       0.00%    passed     97.92%
+ 969  NG2026_Grep06252                       0.00%    passed     93.37%
+ 970  NG2026_Grep06254                       0.00%    passed     96.32%
+ 971  NG2026_Grep06255                       0.00%    passed     98.50%
+ 972  NG2026_Grep06273                       0.00%    passed     97.95%
+ 973  NG2026_Grep06274                       0.00%    passed     99.97%
+ 974  NG2026_Grep06278                       0.00%    passed     86.94%
+ 975  NG2026_Grep06297                       0.00%    passed     94.29%
+ 976  NG2026_Grep06301                       0.00%    passed     99.55%
+ 977  NG2026_Grep06312                       0.00%    passed     95.73%
+ 978  NG2026_Grep06314                       0.00%    passed     94.20%
+ 979  NG2026_Grep06318                       0.00%    passed     88.77%
+ 980  NG2026_Grep06319                       0.00%    passed     98.56%
+ 981  NG2026_Grep06323                       0.00%    passed     88.75%
+ 982  NG2026_Grep06330                       0.00%    passed     99.55%
+ 983  NG2026_Grep06334                       0.00%    passed     98.74%
+ 984  NG2026_Grep06336                       0.00%    passed     97.93%
+ 985  NG2026_Grep06346                       0.00%    passed     96.09%
+ 986  NG2026_Grep06352                       0.00%    passed     98.85%
+ 987  NG2026_Grep06355                       0.00%    passed     98.08%
+ 988  NG2026_Grep06363                       0.00%    passed     98.16%
+ 989  NG2026_Grep06372                       0.00%    passed     89.49%
+ 990  NG2026_Grep06379                       0.00%    passed     99.82%
+ 991  NG2026_Grep06383                       0.00%    passed     98.97%
+ 992  NG2026_Grep06390                       0.00%    passed     99.40%
+ 993  NG2026_Grep06400                       0.00%    passed     98.74%
+ 994  NG2026_Grep06407                       0.00%    passed     99.30%
+ 995  NG2026_Grep06427                       0.00%    passed     99.05%
+ 996  NG2026_Grep06432                       0.00%    passed     88.77%
+ 997  NG2026_Grep06433                       0.00%    passed     97.42%
+ 998  NG2026_Grep06435                       0.00%    passed     98.26%
+ 999  NG2026_Grep06443                       0.00%    passed     90.77%
+1000  NG2026_Grep06460                       3.52%    passed     94.31%
+1001  NG2026_Grep06464                       0.00%    passed     99.21%
+1002  NG2026_Grep06470                       0.00%    passed     96.33%
+1003  NG2026_Grep06487                       0.00%    passed     93.88%
+1004  NG2026_Grep06506                       0.00%    passed     98.28%
+1005  NG2026_Grep06513                       0.00%    passed     98.50%
+1006  NG2026_Grep06522                       0.00%    passed     97.92%
+1007  NG2026_Grep06531                       0.00%    passed     96.27%
+1008  NG2026_Grep06532                       0.00%    passed     92.32%
+1009  NG2026_Grep06545                       0.00%    passed     80.87%
+1010  NG2026_Grep06549                       0.00%    passed     93.01%
+1011  NG2026_Grep06558                       0.00%    passed     86.52%
+1012  NG2026_Grep06565                       0.00%    passed     99.84%
+1013  NG2026_Grep06576                       0.00%    passed     99.43%
+1014  NG2026_Grep06581                       0.00%    passed     99.49%
+1015  NG2026_Grep06586                       0.93%    passed     99.89%
+1016  CONS_PRJNA1037681_SRR26779971          0.00%    passed     98.92%
+1017  CONS_PRJNA1037681_SRR26779973          0.10%    passed     99.38%
+1018  CONS_PRJNA1037681_SRR26779974          0.00%    passed     98.87%
+1019  CONS_PRJNA1037681_SRR26779976          0.00%    passed     99.73%
+1020  CONS_PRJNA1037681_SRR26779980          0.00%    passed     99.21%
+1021  CONS_PRJNA1037681_SRR26779981          0.00%    passed     99.21%
+1022  CONS_PRJNA1037681_SRR26779985          0.00%    passed     99.21%
+1023  CONS_PRJNA1037681_SRR26779989          0.00%    passed     99.72%
+1024  CONS_PRJNA1037681_SRR26779994          0.00%    passed     99.21%
+1025  CONS_PRJNA1037681_SRR26780031          0.00%    passed     99.21%
+1026  CONS_PRJNA1037681_SRR26780033          0.00%    passed     99.19%
+1027  CONS_PRJNA1037681_SRR26780034          0.00%    passed     98.97%
+1028  CONS_PRJNA1037681_SRR26780041          0.00%    passed     99.21%
+1029  CONS_PRJNA1037681_SRR26780042          0.00%    passed     99.50%
+1030  CONS_PRJNA1037681_SRR26780044          0.00%    passed     96.21%
+1031  CONS_PRJNA1037681_SRR26780046          0.10%    passed     94.20%
+1032  CONS_PRJNA1037681_SRR26780048          0.41%    passed     98.90%
+1033  CONS_PRJNA1037681_SRR26780050          0.00%    passed     89.85%
+1034  CONS_PRJNA1037681_SRR26780067          0.00%    passed     99.21%
+1035  CONS_PRJNA1037681_SRR26780110          0.00%    passed     92.61%
+1036  CONS_PRJNA1037681_SRR26780112          0.21%    passed     98.67%
+1037  CONS_PRJNA1037681_SRR26780115          0.10%    passed     98.59%
+1038  CONS_PRJNA1037681_SRR26780117          0.00%    passed     86.52%
+1039  CONS_PRJNA1037681_SRR26780119          0.00%    passed     98.97%
+1040  CONS_PRJNA1037681_SRR26780123          0.00%    passed     99.21%
+1041  CONS_PRJNA1037681_SRR26780126          0.00%    passed     98.92%
+1042  CONS_PRJNA1037681_SRR26780127          0.00%    passed     99.21%
+1043  CONS_PRJNA1037681_SRR26780146          0.00%    passed     99.21%
+1044  CONS_PRJNA1037681_SRR26780187          0.00%    passed     99.21%
+1045  CONS_PRJNA1037681_SRR26780205          0.00%    passed     98.26%
+1046  CONS_PRJNA1037681_SRR26780206          0.00%    passed     99.21%
+1047  CONS_PRJNA1037681_SRR26780211          0.00%    passed     99.21%
+1048  CONS_PRJNA1037681_SRR26780213          0.00%    passed     89.85%
+1049  CONS_PRJNA1037681_SRR26780216          0.00%    passed     98.92%
+1050  CONS_PRJNA1037681_SRR26780217          0.00%    passed     99.72%
+1051  CONS_PRJNA1037681_SRR26780219          0.00%    passed     99.29%
+1052  CONS_PRJNA1037681_SRR26780237          0.00%    passed     99.21%
+1053  CONS_PRJNA1130896_SRR29679704          0.00%    passed     99.14%
+1054  CONS_PRJNA1130896_SRR29679706          0.00%    passed     99.60%
+1055  CONS_PRJNA1130896_SRR29679709          0.00%    passed     98.44%
+1056  CONS_PRJNA1130896_SRR29679712          0.00%    passed     98.38%
+1057  CONS_PRJNA1130896_SRR29679713          0.00%    passed     99.43%
+1058  CONS_PRJNA1130896_SRR29679716          0.00%    passed     99.91%
+1059  CONS_PRJNA1130896_SRR29679720          0.00%    passed     95.86%
+1060  CONS_PRJNA1130896_SRR29679721          0.00%    passed     99.67%
+1061  CONS_PRJNA1130896_SRR29679723          0.00%    passed     99.91%
+1062  CONS_PRJNA1130896_SRR29679728          0.00%    passed     99.79%
+1063  CONS_PRJNA1130896_SRR29679729          0.00%    passed     99.79%
+1064  CONS_PRJNA1130896_SRR29679731          0.00%    passed     95.97%
+1065  CONS_PRJNA1130896_SRR29679732          0.00%    passed     99.68%
+1066  CONS_PRJNA1130896_SRR29679737          0.00%    passed     99.70%
+1067  CONS_PRJNA1130896_SRR29679738          0.00%    passed     99.91%
+1068  CONS_PRJNA1130896_SRR29679753          0.00%    passed     98.26%
+1069  CONS_PRJNA1130896_SRR29679754          0.00%    passed     99.58%
+1070  CONS_PRJNA1130896_SRR29679809          0.00%    passed     96.42%
+1071  CONS_PRJNA1130896_SRR29679814          0.00%    passed     99.79%
+1072  CONS_PRJNA1130896_SRR29679823          0.00%    passed     99.79%
+1073  CONS_PRJNA1130896_SRR29679826          0.00%    passed     99.60%
+1074  CONS_PRJNA1130896_SRR29679830          0.00%    passed     89.83%
+1075  CONS_PRJNA1130896_SRR29679833          0.00%    passed     89.83%
+1076  CONS_PRJNA1130896_SRR29679834          0.00%    passed     99.34%
+1077  CONS_PRJNA1130896_SRR29679837          0.00%    passed     99.91%
+1078  CONS_PRJNA1130896_SRR29679842          0.00%    passed     99.91%
+1079  CONS_PRJNA1130896_SRR29679843          0.00%    passed     99.34%
+1080  CONS_PRJNA1130896_SRR29679844          0.72%    passed     50.29%
+1081  CONS_PRJNA1130896_SRR29679851          0.00%    passed     99.91%
+1082  CONS_PRJNA1130896_SRR29679852          0.00%    passed     99.91%
+1083  CONS_PRJNA1130896_SRR29679854          0.00%    passed     99.79%
+1084  CONS_PRJNA1130896_SRR29679864          0.00%    passed     99.91%
+1085  CONS_PRJNA1130896_SRR29679874          0.00%    passed     99.79%
+1086  CONS_PRJNA1130896_SRR29692818          0.21%    passed     99.57%
+1087  CONS_PRJNA1130896_SRR29692824          0.00%    passed     99.67%
+1088  CONS_PRJNA1130896_SRR29692828          0.00%    passed     96.42%
+1089  CONS_PRJNA1130896_SRR29692831          0.00%    passed     99.79%
+1090  CONS_PRJNA1130896_SRR29692854          0.00%    passed     99.63%
+1091  CONS_PRJNA1130896_SRR29692857          0.00%    passed     99.63%
+1092  CONS_PRJNA1130896_SRR29692865          0.00%    passed     99.97%
+1093  CONS_PRJNA1130896_SRR29692873          0.00%    passed     98.94%
+1094  CONS_PRJNA1130896_SRR29692875          0.00%    passed     99.92%
+1095  CONS_PRJNA1130896_SRR29692880          0.00%    passed     99.05%
+1096  CONS_PRJNA1130896_SRR29692881          0.00%    passed     98.95%
+1097  CONS_PRJNA1130896_SRR29692884          0.00%    passed     97.06%
+1098  CONS_PRJNA1130896_SRR29692887          0.00%    passed     99.59%
+1099  CONS_PRJNA1130896_SRR29692889          0.00%    passed     99.79%
+1100  CONS_PRJNA1130896_SRR29692926          0.00%    passed     99.60%
+1101  CONS_PRJNA1130896_SRR29692928          0.00%    passed     99.32%
+1102  CONS_PRJNA1130896_SRR29692929          0.00%    passed     99.39%
+1103  CONS_PRJNA1130896_SRR29692933          0.00%    passed     99.79%
+1104  CONS_PRJNA1130896_SRR29692935          0.00%    passed     99.43%
+1105  CONS_PRJNA1130896_SRR29692936          0.00%    passed     99.30%
+1106  CONS_PRJNA1130896_SRR29692939          0.00%    passed     99.91%
+1107  CONS_PRJNA1130896_SRR29692941          0.00%    passed     97.60%
+1108  CONS_PRJNA1130896_SRR29692943          0.10%    passed     99.10%
+1109  CONS_PRJNA1130896_SRR29692965          0.10%    passed     97.17%
+1110  CONS_PRJNA1130896_SRR29692967          0.00%    passed     99.68%
+1111  CONS_PRJNA1130896_SRR29692974          0.00%    passed     99.79%
+1112  CONS_PRJNA1130896_SRR29692975          0.00%    passed     98.84%
+1113  CONS_PRJNA1130896_SRR29692977          0.00%    passed     96.45%
+1114  CONS_PRJNA1130896_SRR29692981          0.00%    passed     98.46%
+1115  CONS_PRJNA1130896_SRR29692982          0.00%    passed     99.30%
+1116  CONS_PRJNA1130896_SRR29692984          0.00%    passed     97.77%
+1117  CONS_PRJNA1130896_SRR29692985          0.00%    passed     99.91%
+1118  CONS_PRJNA1130896_SRR29692989          0.00%    passed     99.14%
+1119  CONS_PRJNA1130896_SRR29692991          0.00%    passed     99.30%
+1120  CONS_PRJNA1130896_SRR29692998          0.00%    passed     99.91%
+1121  CONS_PRJNA1130896_SRR29693057          0.21%    passed     98.18%
+1122  CONS_PRJNA1130896_SRR29693058          0.10%    passed     99.98%
+1123  CONS_PRJNA1130896_SRR29693059          0.00%    passed     99.86%
+1124  CONS_PRJNA1130896_SRR29693060          0.00%    passed     94.01%
+1125  HAP_PRJNA1037681_SRR26779971_H1_C4     0.00%    passed     98.92%
+1126  HAP_PRJNA1037681_SRR26779971_H2_C6     0.00%    passed     97.60%
+1127  HAP_PRJNA1037681_SRR26779974_H1_C4     0.00%    passed     98.87%
+1128  HAP_PRJNA1037681_SRR26779974_H2_C6     0.00%    passed     96.32%
+1129  HAP_PRJNA1037681_SRR26779980_H1_C4     0.00%    passed     99.21%
+1130  HAP_PRJNA1037681_SRR26779980_H2_C6     0.00%    passed     97.89%
+1131  HAP_PRJNA1037681_SRR26779981_H1_C4     0.00%    passed     99.21%
+1132  HAP_PRJNA1037681_SRR26779981_H2_C6     0.00%    passed     97.89%
+1133  HAP_PRJNA1037681_SRR26779985_H1_C4     0.00%    passed     99.21%
+1134  HAP_PRJNA1037681_SRR26779985_H2_C6     0.00%    passed     97.89%
+1135  HAP_PRJNA1037681_SRR26779994_H1_C4     0.00%    passed     99.21%
+1136  HAP_PRJNA1037681_SRR26779994_H2_C6     0.00%    passed     97.89%
+1137  HAP_PRJNA1037681_SRR26780031_H1_C4     0.00%    passed     99.21%
+1138  HAP_PRJNA1037681_SRR26780031_H2_C6     0.00%    passed     97.89%
+1139  HAP_PRJNA1037681_SRR26780034_H1_C4     0.00%    passed     98.97%
+1140  HAP_PRJNA1037681_SRR26780034_H2_C6     0.00%    passed     97.28%
+1141  HAP_PRJNA1037681_SRR26780048_H1_C4     0.00%    passed     98.92%
+1142  HAP_PRJNA1037681_SRR26780048_H2_C6     0.00%    passed     97.60%
+1143  HAP_PRJNA1037681_SRR26780067_H1_C4     0.00%    passed     99.21%
+1144  HAP_PRJNA1037681_SRR26780067_H2_C6     0.00%    passed     97.89%
+1145  HAP_PRJNA1037681_SRR26780112_H1_C4     0.00%    passed     99.21%
+1146  HAP_PRJNA1037681_SRR26780112_H2_C6     0.00%    passed     97.79%
+1147  HAP_PRJNA1037681_SRR26780119_H1_C4     0.00%    passed     98.97%
+1148  HAP_PRJNA1037681_SRR26780119_H2_C6     0.00%    passed     97.28%
+1149  HAP_PRJNA1037681_SRR26780123_H1_C4     0.00%    passed     99.21%
+1150  HAP_PRJNA1037681_SRR26780123_H2_C6     0.00%    passed     97.89%
+1151  HAP_PRJNA1037681_SRR26780126_H1_C4     0.00%    passed     98.92%
+1152  HAP_PRJNA1037681_SRR26780126_H2_C6     0.00%    passed     97.60%
+1153  HAP_PRJNA1037681_SRR26780127_H1_C4     0.00%    passed     99.21%
+1154  HAP_PRJNA1037681_SRR26780127_H2_C6     0.00%    passed     97.89%
+1155  HAP_PRJNA1037681_SRR26780146_H1_C4     0.00%    passed     99.21%
+1156  HAP_PRJNA1037681_SRR26780146_H2_C6     0.00%    passed     97.89%
+1157  HAP_PRJNA1037681_SRR26780187_H1_C4     0.00%    passed     99.21%
+1158  HAP_PRJNA1037681_SRR26780187_H2_C6     0.00%    passed     97.79%
+1159  HAP_PRJNA1037681_SRR26780205_H1_C4     0.00%    passed     98.26%
+1160  HAP_PRJNA1037681_SRR26780205_H2_C6     0.00%    passed     95.58%
+1161  HAP_PRJNA1037681_SRR26780206_H1_C4     0.00%    passed     99.21%
+1162  HAP_PRJNA1037681_SRR26780206_H2_C6     0.00%    passed     97.89%
+1163  HAP_PRJNA1037681_SRR26780211_H1_C4     0.00%    passed     99.21%
+1164  HAP_PRJNA1037681_SRR26780211_H2_C6     0.00%    passed     96.82%
+1165  HAP_PRJNA1037681_SRR26780216_H1_C4     0.00%    passed     98.92%
+1166  HAP_PRJNA1037681_SRR26780216_H2_C6     0.00%    passed     97.60%
+1167  HAP_PRJNA1037681_SRR26780219_H1_C4     0.00%    passed     99.29%
+1168  HAP_PRJNA1037681_SRR26780219_H2_C6     0.00%    passed     98.26%
+1169  HAP_PRJNA1037681_SRR26780237_H1_C4     0.00%    passed     99.21%
+1170  HAP_PRJNA1037681_SRR26780237_H2_C6     0.00%    passed     97.79%
+1171  HAP_PRJNA1130896_SRR29679716_H1_C21    0.00%    passed     99.91%
+1172  HAP_PRJNA1130896_SRR29679716_H2_C18    0.00%    passed     98.92%
+1173  HAP_PRJNA1130896_SRR29679723_H1_C21    0.00%    passed     99.91%
+1174  HAP_PRJNA1130896_SRR29679723_H2_C18    0.00%    passed     99.00%
+1175  HAP_PRJNA1130896_SRR29679728_H1_C21    0.00%    passed     99.79%
+1176  HAP_PRJNA1130896_SRR29679728_H2_C18    0.00%    passed     98.76%
+1177  HAP_PRJNA1130896_SRR29679729_H1_C21    0.00%    passed     99.79%
+1178  HAP_PRJNA1130896_SRR29679729_H2_C18    0.00%    passed     98.76%
+1179  HAP_PRJNA1130896_SRR29679738_H1_C21    0.00%    passed     99.91%
+1180  HAP_PRJNA1130896_SRR29679738_H2_C18    0.00%    passed     99.00%
+1181  HAP_PRJNA1130896_SRR29679814_H1_C21    0.00%    passed     99.79%
+1182  HAP_PRJNA1130896_SRR29679814_H2_C18    0.10%    passed     98.28%
+1183  HAP_PRJNA1130896_SRR29679823_H1_C21    0.00%    passed     99.79%
+1184  HAP_PRJNA1130896_SRR29679823_H2_C18    0.10%    passed     98.28%
+1185  HAP_PRJNA1130896_SRR29679837_H1_C21    0.00%    passed     99.91%
+1186  HAP_PRJNA1130896_SRR29679837_H2_C18    0.00%    passed     99.00%
+1187  HAP_PRJNA1130896_SRR29679842_H1_C21    0.00%    passed     99.91%
+1188  HAP_PRJNA1130896_SRR29679842_H2_C18    0.00%    passed     98.92%
+1189  HAP_PRJNA1130896_SRR29679851_H1_C21    0.00%    passed     99.91%
+1190  HAP_PRJNA1130896_SRR29679851_H2_C18    0.00%    passed     99.00%
+1191  HAP_PRJNA1130896_SRR29679852_H1_C21    0.00%    passed     99.91%
+1192  HAP_PRJNA1130896_SRR29679852_H2_C18    0.00%    passed     99.00%
+1193  HAP_PRJNA1130896_SRR29679854_H1_C21    0.00%    passed     99.79%
+1194  HAP_PRJNA1130896_SRR29679854_H2_C18    0.10%    passed     98.28%
+1195  HAP_PRJNA1130896_SRR29679864_H1_C21    0.00%    passed     99.91%
+1196  HAP_PRJNA1130896_SRR29679864_H2_C18    0.00%    passed     98.92%
+1197  HAP_PRJNA1130896_SRR29679874_H1_C21    0.00%    passed     99.79%
+1198  HAP_PRJNA1130896_SRR29679874_H2_C18    0.10%    passed     98.28%
+1199  HAP_PRJNA1130896_SRR29692818_H1_C21    0.00%    passed     99.79%
+1200  HAP_PRJNA1130896_SRR29692818_H2_C18    0.00%    passed     98.76%
+1201  HAP_PRJNA1130896_SRR29692831_H1_C21    0.00%    passed     99.79%
+1202  HAP_PRJNA1130896_SRR29692831_H2_C18    0.10%    passed     98.28%
+1203  HAP_PRJNA1130896_SRR29692854_H1_C21    0.00%    passed     99.63%
+1204  HAP_PRJNA1130896_SRR29692854_H2_C18    0.00%    passed     97.83%
+1205  HAP_PRJNA1130896_SRR29692857_H1_C21    0.00%    passed     99.63%
+1206  HAP_PRJNA1130896_SRR29692857_H2_C18    0.00%    passed     99.00%
+1207  HAP_PRJNA1130896_SRR29692875_H1_C21    0.00%    passed     99.92%
+1208  HAP_PRJNA1130896_SRR29692875_H2_C18    0.00%    passed     99.79%
+1209  HAP_PRJNA1130896_SRR29692889_H1_C21    0.00%    passed     99.79%
+1210  HAP_PRJNA1130896_SRR29692889_H2_C18    0.10%    passed     98.28%
+1211  HAP_PRJNA1130896_SRR29692933_H1_C21    0.00%    passed     99.79%
+1212  HAP_PRJNA1130896_SRR29692933_H2_C18    0.10%    passed     98.28%
+1213  HAP_PRJNA1130896_SRR29692939_H1_C21    0.00%    passed     99.91%
+1214  HAP_PRJNA1130896_SRR29692939_H2_C18    0.00%    passed     99.00%
+1215  HAP_PRJNA1130896_SRR29692974_H1_C21    0.00%    passed     99.79%
+1216  HAP_PRJNA1130896_SRR29692974_H2_C18    0.10%    passed     98.28%
+1217  HAP_PRJNA1130896_SRR29692985_H1_C21    0.00%    passed     99.91%
+1218  HAP_PRJNA1130896_SRR29692985_H2_C18    0.00%    passed     99.00%
+1219  HAP_PRJNA1130896_SRR29692985_H3_C21    2.80%    passed     99.75%
+1220  HAP_PRJNA1130896_SRR29692998_H1_C21    0.00%    passed     99.91%
+1221  HAP_PRJNA1130896_SRR29692998_H2_C18    0.00%    passed     99.00%
+1222  HAP_PRJNA1130896_SRR29693058_H1_C21    0.00%    passed     99.91%
+1223  HAP_PRJNA1130896_SRR29693058_H2_C18    0.00%    passed     99.00%
+****  TOTAL                                  0.19%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: CONS_PRJNA1130896_SRR29679716 is identical to NG2026_Grep02384 but kept for subsequent analysis
+NOTE: CONS_PRJNA1130896_SRR29679706 is identical to NG2026_Grep02393 but kept for subsequent analysis
+NOTE: CONS_PRJNA1130896_SRR29679729 is identical to NG2026_Grep02440 but kept for subsequent analysis
+NOTE: CONS_PRJNA1130896_SRR29692929 is identical to NG2026_Grep02449 but kept for subsequent analysis
+NOTE: CONS_PRJNA1037681_SRR26779980 is identical to NG2026_Grep02863 but kept for subsequent analysis
+NOTE: CONS_PRJNA1037681_SRR26780126 is identical to CONS_PRJNA1037681_SRR26779971 but kept for subsequent analysis
+NOTE: HAP_PRJNA1037681_SRR26779974_H1_C4 is identical to CONS_PRJNA1037681_SRR26779974 but kept for subsequent analysis
+NOTE: HAP_PRJNA1037681_SRR26780034_H1_C4 is identical to CONS_PRJNA1037681_SRR26780034 but kept for subsequent analysis
+NOTE: CONS_PRJNA1037681_SRR26780213 is identical to CONS_PRJNA1037681_SRR26780050 but kept for subsequent analysis
+NOTE: HAP_PRJNA1037681_SRR26780119_H1_C4 is identical to CONS_PRJNA1037681_SRR26780119 but kept for subsequent analysis
+NOTE: HAP_PRJNA1037681_SRR26780205_H1_C4 is identical to CONS_PRJNA1037681_SRR26780205 but kept for subsequent analysis
+NOTE: HAP_PRJNA1037681_SRR26780219_H1_C4 is identical to CONS_PRJNA1037681_SRR26780219 but kept for subsequent analysis
+NOTE: CONS_PRJNA1130896_SRR29692935 is identical to CONS_PRJNA1130896_SRR29679713 but kept for subsequent analysis
+NOTE: CONS_PRJNA1130896_SRR29692824 is identical to CONS_PRJNA1130896_SRR29679721 but kept for subsequent analysis
+NOTE: HAP_PRJNA1130896_SRR29679728_H1_C21 is identical to CONS_PRJNA1130896_SRR29679728 but kept for subsequent analysis
+NOTE: CONS_PRJNA1130896_SRR29692967 is identical to CONS_PRJNA1130896_SRR29679732 but kept for subsequent analysis
+NOTE: CONS_PRJNA1130896_SRR29692828 is identical to CONS_PRJNA1130896_SRR29679809 but kept for subsequent analysis
+NOTE: CONS_PRJNA1130896_SRR29679833 is identical to CONS_PRJNA1130896_SRR29679830 but kept for subsequent analysis
+NOTE: CONS_PRJNA1130896_SRR29679843 is identical to CONS_PRJNA1130896_SRR29679834 but kept for subsequent analysis
+NOTE: HAP_PRJNA1130896_SRR29692854_H1_C21 is identical to CONS_PRJNA1130896_SRR29692854 but kept for subsequent analysis
+NOTE: HAP_PRJNA1130896_SRR29692857_H1_C21 is identical to CONS_PRJNA1130896_SRR29692857 but kept for subsequent analysis
+NOTE: HAP_PRJNA1130896_SRR29692875_H1_C21 is identical to CONS_PRJNA1130896_SRR29692875 but kept for subsequent analysis
+NOTE: CONS_PRJNA1130896_SRR29692982 is identical to CONS_PRJNA1130896_SRR29692936 but kept for subsequent analysis
+NOTE: HAP_PRJNA1037681_SRR26780048_H2_C6 is identical to HAP_PRJNA1037681_SRR26779971_H2_C6 but kept for subsequent analysis
+NOTE: HAP_PRJNA1037681_SRR26779981_H2_C6 is identical to HAP_PRJNA1037681_SRR26779980_H2_C6 but kept for subsequent analysis
+NOTE: HAP_PRJNA1037681_SRR26780187_H2_C6 is identical to HAP_PRJNA1037681_SRR26780112_H2_C6 but kept for subsequent analysis
+NOTE: HAP_PRJNA1130896_SRR29679842_H2_C18 is identical to HAP_PRJNA1130896_SRR29679716_H2_C18 but kept for subsequent analysis
+NOTE: HAP_PRJNA1130896_SRR29679738_H2_C18 is identical to HAP_PRJNA1130896_SRR29679723_H2_C18 but kept for subsequent analysis
+NOTE: HAP_PRJNA1130896_SRR29692818_H2_C18 is identical to HAP_PRJNA1130896_SRR29679729_H2_C18 but kept for subsequent analysis
+NOTE: HAP_PRJNA1130896_SRR29679823_H2_C18 is identical to HAP_PRJNA1130896_SRR29679814_H2_C18 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00438618 secs using 1489% CPU
+Identifying sites to remove: done in 0.00781583 secs using 506.5% CPU
+NOTE: 100 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: CONS_PRJNA1130896_SRR29679723 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29679738 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29679837 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29679842 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29679851 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29679852 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29679864 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29692939 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29692985 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29692998 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679716_H1_C21 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679723_H1_C21 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679738_H1_C21 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679837_H1_C21 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679842_H1_C21 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679851_H1_C21 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679852_H1_C21 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679864_H1_C21 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692939_H1_C21 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692985_H1_C21 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692998_H1_C21 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29693058_H1_C21 (identical to NG2026_Grep02384) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29679826 (identical to NG2026_Grep02393) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29679814 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29679823 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29679854 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29679874 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29692831 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29692889 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29692933 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29692974 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679729_H1_C21 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679814_H1_C21 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679823_H1_C21 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679854_H1_C21 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679874_H1_C21 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692818_H1_C21 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692831_H1_C21 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692889_H1_C21 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692933_H1_C21 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692974_H1_C21 (identical to NG2026_Grep02440) is ignored but added at the end
+NOTE: CONS_PRJNA1037681_SRR26779981 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: CONS_PRJNA1037681_SRR26779985 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: CONS_PRJNA1037681_SRR26779994 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: CONS_PRJNA1037681_SRR26780031 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: CONS_PRJNA1037681_SRR26780041 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: CONS_PRJNA1037681_SRR26780067 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: CONS_PRJNA1037681_SRR26780123 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: CONS_PRJNA1037681_SRR26780127 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: CONS_PRJNA1037681_SRR26780146 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: CONS_PRJNA1037681_SRR26780187 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: CONS_PRJNA1037681_SRR26780206 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: CONS_PRJNA1037681_SRR26780211 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: CONS_PRJNA1037681_SRR26780237 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26779980_H1_C4 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26779981_H1_C4 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26779985_H1_C4 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26779994_H1_C4 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780031_H1_C4 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780067_H1_C4 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780112_H1_C4 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780123_H1_C4 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780127_H1_C4 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780146_H1_C4 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780187_H1_C4 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780206_H1_C4 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780211_H1_C4 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780237_H1_C4 (identical to NG2026_Grep02863) is ignored but added at the end
+NOTE: CONS_PRJNA1037681_SRR26780216 (identical to CONS_PRJNA1037681_SRR26779971) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26779971_H1_C4 (identical to CONS_PRJNA1037681_SRR26779971) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780048_H1_C4 (identical to CONS_PRJNA1037681_SRR26779971) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780126_H1_C4 (identical to CONS_PRJNA1037681_SRR26779971) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780216_H1_C4 (identical to CONS_PRJNA1037681_SRR26779971) is ignored but added at the end
+NOTE: CONS_PRJNA1130896_SRR29692991 (identical to CONS_PRJNA1130896_SRR29692936) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780126_H2_C6 (identical to HAP_PRJNA1037681_SRR26779971_H2_C6) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780216_H2_C6 (identical to HAP_PRJNA1037681_SRR26779971_H2_C6) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26779985_H2_C6 (identical to HAP_PRJNA1037681_SRR26779980_H2_C6) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26779994_H2_C6 (identical to HAP_PRJNA1037681_SRR26779980_H2_C6) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780031_H2_C6 (identical to HAP_PRJNA1037681_SRR26779980_H2_C6) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780067_H2_C6 (identical to HAP_PRJNA1037681_SRR26779980_H2_C6) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780123_H2_C6 (identical to HAP_PRJNA1037681_SRR26779980_H2_C6) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780127_H2_C6 (identical to HAP_PRJNA1037681_SRR26779980_H2_C6) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780146_H2_C6 (identical to HAP_PRJNA1037681_SRR26779980_H2_C6) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780206_H2_C6 (identical to HAP_PRJNA1037681_SRR26779980_H2_C6) is ignored but added at the end
+NOTE: HAP_PRJNA1037681_SRR26780237_H2_C6 (identical to HAP_PRJNA1037681_SRR26780112_H2_C6) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679864_H2_C18 (identical to HAP_PRJNA1130896_SRR29679716_H2_C18) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679837_H2_C18 (identical to HAP_PRJNA1130896_SRR29679723_H2_C18) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679851_H2_C18 (identical to HAP_PRJNA1130896_SRR29679723_H2_C18) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679852_H2_C18 (identical to HAP_PRJNA1130896_SRR29679723_H2_C18) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692857_H2_C18 (identical to HAP_PRJNA1130896_SRR29679723_H2_C18) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692939_H2_C18 (identical to HAP_PRJNA1130896_SRR29679723_H2_C18) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692985_H2_C18 (identical to HAP_PRJNA1130896_SRR29679723_H2_C18) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692998_H2_C18 (identical to HAP_PRJNA1130896_SRR29679723_H2_C18) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29693058_H2_C18 (identical to HAP_PRJNA1130896_SRR29679723_H2_C18) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679854_H2_C18 (identical to HAP_PRJNA1130896_SRR29679814_H2_C18) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29679874_H2_C18 (identical to HAP_PRJNA1130896_SRR29679814_H2_C18) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692831_H2_C18 (identical to HAP_PRJNA1130896_SRR29679814_H2_C18) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692889_H2_C18 (identical to HAP_PRJNA1130896_SRR29679814_H2_C18) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692933_H2_C18 (identical to HAP_PRJNA1130896_SRR29679814_H2_C18) is ignored but added at the end
+NOTE: HAP_PRJNA1130896_SRR29692974_H2_C18 (identical to HAP_PRJNA1130896_SRR29679814_H2_C18) is ignored but added at the end
+Alignment was printed to /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data_v2/140_global_G_tree_minor_haplotype_context/tree/global_G_visualization_set_MFP.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data_v2/140_global_G_tree_minor_haplotype_context/tree/global_G_visualization_set_MFP.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.348 seconds
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -26364.559
+Optimal log-likelihood: -26364.161
+Rate parameters:  A-C: 0.71174  A-G: 4.88309  A-T: 1.08871  C-G: 0.07576  C-T: 11.12249  G-T: 1.00000
+Base frequencies:  A: 0.402  C: 0.320  G: 0.109  T: 0.169
+Proportion of invariable sites: 0.142
+Gamma shape alpha: 1.318
+Parameters optimization took 1 rounds (0.447 sec)
+Time for fast ML tree search: 7.218 seconds
+
+NOTE: ModelFinder requires 286 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 966 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  1  JC            30122.389    2243 64730.777    10131314.777 75661.283
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  2  JC+I          29615.546    2244 63719.093    10139279.093 74654.472
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  3  JC+G4         28912.598    2244 62313.196    10137873.196 73248.576
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  4  JC+I+G4       28904.962    2245 62299.923    10146839.923 73240.176
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  5  JC+R2         29114.078    2245 62718.156    10147258.156 73658.409
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  6  JC+R3         28768.483    2247 62030.967    10164542.967 72980.966
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  7  JC+R4         28709.348    2249 61916.697    10182416.697 72876.442
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  8  JC+R5         28699.531    2251 61901.061    10200405.061 72870.553
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  9  JC+R6         28699.217    2253 61904.434    10218428.434 72883.672
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 14  JC+I+R2       28912.475    2246 62316.949    10155840.949 73262.075
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 15  JC+I+R3       28737.562    2248 61971.123    10173475.123 72925.995
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 16  JC+I+R4       28695.662    2250 61891.324    10191391.324 72855.943
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 17  JC+I+R5       28695.187    2252 61894.374    10209406.374 72868.739
+ 38  JC+I+R4       28695.662    2250 61891.324    10191391.324 72855.943
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 60  F81+I+R4      28695.737    2250 61891.474    10191391.474 72856.093
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+ 82  F81+F+I+R4    28621.462    2253 61748.925    10218272.925 72728.163
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+104  K2P+I+R4      26882.380    2251 58266.760    10196770.760 69236.252
+126  K2P+I+R4      26882.380    2251 58266.760    10196770.760 69236.252
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+148  HKY+I+R4      26882.379    2251 58266.759    10196770.759 69236.250
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+170  HKY+F+I+R4    26386.711    2254 57281.422    10222821.422 68265.534
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+192  TNe+I+R4      26782.981    2252 58069.962    10205581.962 69044.327
+214  TNe+I+R4      26782.981    2252 58069.962    10205581.962 69044.327
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+236  TN+I+R4       26782.920    2252 58069.840    10205581.840 69044.205
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+258  TN+F+I+R4     26341.768    2255 57193.535    10231753.535 68182.520
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+280  K3P+I+R4      26859.652    2252 58223.303    10205735.303 69197.668
+302  K3P+I+R4      26859.652    2252 58223.303    10205735.303 69197.668
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+324  K3Pu+I+R4     26859.442    2252 58222.884    10205734.884 69197.249
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+346  K3Pu+F+I+R4   26386.246    2255 57282.493    10231842.493 68271.477
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+368  TPM2+I+R4     26669.567    2252 57843.134    10205355.134 68817.499
+390  TPM2+I+R4     26669.567    2252 57843.134    10205355.134 68817.499
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+412  TPM2u+I+R4    26669.346    2252 57842.692    10205354.692 68817.057
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+434  TPM2u+F+I+R4  26360.889    2255 57231.777    10231791.777 68220.762
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+456  TPM3+I+R4     26882.505    2252 58269.010    10205781.010 69243.375
+478  TPM3+I+R4     26882.505    2252 58269.010    10205781.010 69243.375
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+500  TPM3u+I+R4    26882.294    2252 58268.588    10205780.588 69242.953
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+522  TPM3u+F+I+R4  26363.680    2255 57237.360    10231797.360 68226.345
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+544  TIMe+I+R4     26760.230    2253 58026.461    10214550.461 69005.699
+566  TIMe+I+R4     26760.230    2253 58026.461    10214550.461 69005.699
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+588  TIM+I+R4      26760.159    2253 58026.318    10214550.318 69005.556
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+610  TIM+F+I+R4    26341.219    2256 57194.439    10240778.439 68188.296
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+632  TIM2e+I+R4    26580.800    2253 57667.600    10214191.600 68646.838
+654  TIM2e+I+R4    26580.800    2253 57667.600    10214191.600 68646.838
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+676  TIM2+I+R4     26580.534    2253 57667.068    10214191.068 68646.306
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+698  TIM2+F+I+R4   26312.494    2256 57136.989    10240720.989 68130.847
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+720  TIM3e+I+R4    26783.014    2253 58072.028    10214596.028 69051.266
+742  TIM3e+I+R4    26783.014    2253 58072.028    10214596.028 69051.266
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+764  TIM3+I+R4     26783.018    2253 58072.036    10214596.036 69051.274
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+786  TIM3+F+I+R4   26318.929    2256 57149.858    10240733.858 68143.716
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+808  TVMe+I+R4     26643.848    2254 57795.695    10223335.695 68779.807
+830  TVMe+I+R4     26643.848    2254 57795.695    10223335.695 68779.807
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+852  TVM+I+R4      26643.845    2254 57795.690    10223335.690 68779.801
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+874  TVM+F+I+R4    26313.147    2257 57140.293    10249752.293 68139.024
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+896  SYM+I+R4      26556.564    2255 57623.128    10232183.128 68612.113
+918  SYM+I+R4      26556.564    2255 57623.128    10232183.128 68612.113
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+940  GTR+I+R4      26556.487    2255 57622.975    10232182.975 68611.959
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+962  GTR+F+I+R4    26264.898    2258 57045.796    10258689.796 68049.400
+Akaike Information Criterion:           GTR+F+I+R4
+Corrected Akaike Information Criterion: JC
+Bayesian Information Criterion:         GTR+F+I+R4
+Best-fit model: GTR+F+I+R4 chosen according to BIC
+
+All model information printed to /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data_v2/140_global_G_tree_minor_haplotype_context/tree/global_G_visualization_set_MFP.model.gz
+CPU time for ModelFinder: 2921.961 seconds (0h:48m:41s)
+Wall-clock time for ModelFinder: 185.197 seconds (0h:3m:5s)
+
+NOTE: 114 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -26264.898
+Optimal log-likelihood: -26264.770
+Rate parameters:  A-C: 0.80659  A-G: 5.90567  A-T: 1.14541  C-G: 0.08791  C-T: 10.88068  G-T: 1.00000
+Base frequencies:  A: 0.402  C: 0.320  G: 0.109  T: 0.169
+Proportion of invariable sites: 0.161
+Site proportion and rates:  (0.313,0.432) (0.427,1.232) (0.081,2.803) (0.019,5.986)
+Parameters optimization took 1 rounds (0.697 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.247986 secs using 1598% CPU
+Computing ML distances took 0.249952 sec (of wall-clock time) 3.971887 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00515157 secs using 584.9% CPU
+Constructing RapidNJ tree: done in 5.92241 secs using 508.9% CPU
+Computing RapidNJ tree took 5.927714 sec (of wall-clock time) 30.172456 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -26543.507
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 35.727 second
+Computing log-likelihood of 98 initial trees ... 18.029 seconds
+Current best score: -26235.104
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -26166.514
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -26163.020
+Iteration 10 / LogL: -26172.000 / Time: 0h:4m:45s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 11: -26143.410
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 19: -26139.472
+Iteration 20 / LogL: -26208.745 / Time: 0h:5m:23s
+Finish initializing candidate tree set (20)
+Current best tree score: -26139.472 / CPU time: 129.738
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -26127.478
+Iteration 30 / LogL: -26142.767 / Time: 0h:6m:23s (0h:11m:4s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -26118.814
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -26115.892
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 38: -26113.438
+Iteration 40 / LogL: -26135.695 / Time: 0h:7m:29s (0h:11m:5s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -26090.441
+Iteration 50 / LogL: -26116.164 / Time: 0h:8m:29s (0h:10m:54s left)
+Iteration 60 / LogL: -26200.093 / Time: 0h:9m:29s (0h:9m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 62: -26084.628
+Iteration 70 / LogL: -26092.615 / Time: 0h:10m:24s (0h:9m:46s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 79: -26082.391
+Iteration 80 / LogL: -26107.090 / Time: 0h:11m:24s (0h:10m:25s left)
+Iteration 90 / LogL: -26087.315 / Time: 0h:12m:24s (0h:9m:19s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 99: -26076.029
+Iteration 100 / LogL: -26139.127 / Time: 0h:13m:21s (0h:10m:16s left)
+Iteration 110 / LogL: -26162.174 / Time: 0h:14m:20s (0h:9m:11s left)
+Iteration 120 / LogL: -26145.462 / Time: 0h:15m:18s (0h:8m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 130: -26069.704
+Iteration 130 / LogL: -26069.704 / Time: 0h:16m:15s (0h:10m:12s left)
+Iteration 140 / LogL: -26115.549 / Time: 0h:17m:11s (0h:9m:8s left)
+Iteration 150 / LogL: -26125.051 / Time: 0h:18m:9s (0h:8m:5s left)
+Iteration 160 / LogL: -26082.449 / Time: 0h:19m:7s (0h:7m:3s left)
+Iteration 170 / LogL: -26097.579 / Time: 0h:20m:5s (0h:6m:2s left)
+Iteration 180 / LogL: -26090.248 / Time: 0h:21m:2s (0h:5m:0s left)
+Iteration 190 / LogL: -26118.776 / Time: 0h:22m:1s (0h:4m:0s left)
+Iteration 200 / LogL: -26078.693 / Time: 0h:22m:59s (0h:3m:0s left)
+Iteration 210 / LogL: -26084.484 / Time: 0h:23m:56s (0h:1m:59s left)
+Iteration 220 / LogL: -26115.462 / Time: 0h:24m:51s (0h:0m:59s left)
+Iteration 230 / LogL: -26086.354 / Time: 0h:25m:50s (0h:0m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 231: -26061.697
+Iteration 240 / LogL: -26124.859 / Time: 0h:26m:49s (0h:9m:2s left)
+Iteration 250 / LogL: -26153.581 / Time: 0h:27m:44s (0h:8m:1s left)
+Iteration 260 / LogL: -26111.019 / Time: 0h:28m:40s (0h:7m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 266: -26052.542
+Iteration 270 / LogL: -26137.231 / Time: 0h:29m:37s (0h:9m:28s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 279: -26049.717
+Iteration 280 / LogL: -26089.309 / Time: 0h:30m:33s (0h:9m:44s left)
+Iteration 290 / LogL: -26155.348 / Time: 0h:31m:32s (0h:8m:45s left)
+Iteration 300 / LogL: -26096.233 / Time: 0h:32m:28s (0h:7m:45s left)
+Iteration 310 / LogL: -26079.949 / Time: 0h:33m:24s (0h:6m:46s left)
+Iteration 320 / LogL: -26076.114 / Time: 0h:34m:21s (0h:5m:46s left)
+Iteration 330 / LogL: -26100.077 / Time: 0h:35m:16s (0h:4m:47s left)
+Iteration 340 / LogL: -26057.516 / Time: 0h:36m:12s (0h:3m:48s left)
+Iteration 350 / LogL: -26073.287 / Time: 0h:37m:11s (0h:2m:49s left)
+Iteration 360 / LogL: -26124.038 / Time: 0h:38m:7s (0h:1m:51s left)
+Iteration 370 / LogL: -26066.439 / Time: 0h:39m:6s (0h:0m:52s left)
+Iteration 380 / LogL: -26080.876 / Time: 0h:40m:5s (0h:0m:-6s left)
+TREE SEARCH COMPLETED AFTER 380 ITERATIONS / Time: 0h:40m:5s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -26049.717
+Optimal log-likelihood: -26049.715
+Rate parameters:  A-C: 0.75817  A-G: 5.64445  A-T: 1.08734  C-G: 0.07961  C-T: 10.62789  G-T: 1.00000
+Base frequencies:  A: 0.402  C: 0.320  G: 0.109  T: 0.169
+Proportion of invariable sites: 0.157
+Site proportion and rates:  (0.282,0.395) (0.459,1.184) (0.081,2.701) (0.021,6.149)
+Parameters optimization took 1 rounds (0.741 sec)
+BEST SCORE FOUND : -26049.715
+Total tree length: 4.226
+
+Total number of iterations: 380
+CPU time used for tree search: 33653.617 sec (9h:20m:53s)
+Wall-clock time used for tree search: 2211.546 sec (0h:36m:51s)
+Total CPU time used: 36656.638 sec (10h:10m:56s)
+Total wall-clock time used: 2406.208 sec (0h:40m:6s)
+
+Analysis results written to: 
+  IQ-TREE report:                /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data_v2/140_global_G_tree_minor_haplotype_context/tree/global_G_visualization_set_MFP.iqtree
+  Maximum-likelihood tree:       /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data_v2/140_global_G_tree_minor_haplotype_context/tree/global_G_visualization_set_MFP.treefile
+  Likelihood distances:          /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data_v2/140_global_G_tree_minor_haplotype_context/tree/global_G_visualization_set_MFP.mldist
+  Screen log file:               /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data_v2/140_global_G_tree_minor_haplotype_context/tree/global_G_visualization_set_MFP.log
+
+Date and Time: Mon May 25 20:49:18 2026
