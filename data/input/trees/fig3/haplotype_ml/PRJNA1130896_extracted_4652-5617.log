@@ -1,0 +1,518 @@
+IQ-TREE version 3.1.1 for Linux x86 64-bit built Apr  8 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    autodl-container-ca5bd23281-6397d221 (AVX2, FMA3, 503 GB RAM)
+Command: /root/miniconda3/bin/iqtree -s /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/extracted_4652-5617_Haplo_G-Q20-mask_TF003_T10/PRJNA1130896_extracted_4652-5617.fasta -o EPI_ISL_412866 -bb 1000 -m MFP -T AUTO -pre /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/trees/PRJNA1130896_extracted_4652-5617
+Seed:    834802 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat May  9 10:12:17 2026
+Kernel:  AVX+FMA - auto-detect threads (128 CPU cores detected)
+
+Reading alignment file /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/extracted_4652-5617_Haplo_G-Q20-mask_TF003_T10/PRJNA1130896_extracted_4652-5617.fasta ... Fasta format detected
+Reading fasta file: done in 0.00220072 secs using 96.51% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00154172 secs using 89.51% CPU
+Alignment has 145 sequences with 966 columns, 205 distinct patterns
+219 parsimony-informative, 14 singleton sites, 733 constant sites
+                                                      Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.8501e-05 secs
+   1  EPI_ISL_412866                                          0.00%    passed     99.35%
+   2  PRJNA1130896_SRR29679704_H1_freq0.8082505378289522      0.00%    passed     99.65%
+   3  PRJNA1130896_SRR29679704_H2_freq0.1917494621710477      0.00%    passed     96.74%
+   4  PRJNA1130896_SRR29679706_H1_freq0.7272618520242182      0.00%    passed     99.86%
+   5  PRJNA1130896_SRR29679706_H2_freq0.27273814797578183     0.00%    passed     99.52%
+   6  PRJNA1130896_SRR29679709_H1_freq0.6773775197082743      0.00%    passed     99.02%
+   7  PRJNA1130896_SRR29679709_H2_freq0.17529451975824062     0.00%    passed     95.78%
+   8  PRJNA1130896_SRR29679709_H3_freq0.1473279605334851      0.00%    passed     97.43%
+   9  PRJNA1130896_SRR29679712_H1_freq0.7246373535485429      0.00%    passed     96.81%
+  10  PRJNA1130896_SRR29679712_H2_freq0.27536264645145714     0.00%    passed     99.73%
+  11  PRJNA1130896_SRR29679713_H1_freq1.0                     0.00%    passed     98.60%
+  12  PRJNA1130896_SRR29679716_H1_freq0.7456968501149668      0.00%    passed     99.99%
+  13  PRJNA1130896_SRR29679716_H2_freq0.25430314988503316     0.00%    passed     99.62%
+  14  PRJNA1130896_SRR29679720_H1_freq0.785687935117279       0.00%    passed     96.71%
+  15  PRJNA1130896_SRR29679720_H2_freq0.21431206488272103     0.10%    passed     98.52%
+  16  PRJNA1130896_SRR29679721_H1_freq0.657449594549411       0.00%    passed     99.57%
+  17  PRJNA1130896_SRR29679721_H2_freq0.2418694315594012      0.00%    passed     99.61%
+  18  PRJNA1130896_SRR29679721_H3_freq0.10068097389118784     0.00%    passed     96.80%
+  19  PRJNA1130896_SRR29679723_H1_freq0.7513122981544529      0.00%    passed     99.99%
+  20  PRJNA1130896_SRR29679723_H2_freq0.24868770184554714     0.00%    passed     99.66%
+  21  PRJNA1130896_SRR29679728_H1_freq0.7524420061319879      0.00%    passed     99.91%
+  22  PRJNA1130896_SRR29679728_H2_freq0.24755799386801214     0.00%    passed     99.48%
+  23  PRJNA1130896_SRR29679729_H1_freq0.6862293117449161      0.00%    passed     99.91%
+  24  PRJNA1130896_SRR29679729_H2_freq0.3137706882550839      0.00%    passed     99.48%
+  25  PRJNA1130896_SRR29679731_H1_freq0.6925785204627408      0.00%    passed     97.65%
+  26  PRJNA1130896_SRR29679731_H2_freq0.3074214795372593      0.00%    passed     91.91%
+  27  PRJNA1130896_SRR29679732_H1_freq0.8271454540164361      0.00%    passed     99.10%
+  28  PRJNA1130896_SRR29679732_H2_freq0.14019485801101922     0.00%    passed     99.28%
+  29  PRJNA1130896_SRR29679732_H3_freq0.03265968797254467     2.80%    passed     98.37%
+  30  PRJNA1130896_SRR29679737_H1_freq0.822978445087322       0.00%    passed     99.89%
+  31  PRJNA1130896_SRR29679737_H2_freq0.17702155491267801     0.00%    passed     99.68%
+  32  PRJNA1130896_SRR29679738_H1_freq0.7560412528436443      0.00%    passed     99.99%
+  33  PRJNA1130896_SRR29679738_H2_freq0.24395874715635568     0.00%    passed     99.66%
+  34  PRJNA1130896_SRR29679753_H1_freq0.8128768916113328      0.00%    passed     96.66%
+  35  PRJNA1130896_SRR29679753_H2_freq0.1871231083886671      0.00%    passed     96.22%
+  36  PRJNA1130896_SRR29679754_H1_freq0.5892919298374683      0.00%    passed     99.31%
+  37  PRJNA1130896_SRR29679754_H2_freq0.4107080701625318      0.10%    passed     99.40%
+  38  PRJNA1130896_SRR29679809_H1_freq0.7378818987648629      0.00%    passed     94.11%
+  39  PRJNA1130896_SRR29679809_H2_freq0.2621181012351372      0.00%    passed     94.11%
+  40  PRJNA1130896_SRR29679814_H1_freq0.6512253869143104      0.00%    passed     99.91%
+  41  PRJNA1130896_SRR29679814_H2_freq0.34877461308568963     0.10%    passed     99.07%
+  42  PRJNA1130896_SRR29679823_H1_freq0.7433248411941512      0.00%    passed     99.91%
+  43  PRJNA1130896_SRR29679823_H2_freq0.2566751588058488      0.10%    passed     99.07%
+  44  PRJNA1130896_SRR29679826_H1_freq0.7008110561988667      0.00%    passed     99.86%
+  45  PRJNA1130896_SRR29679826_H2_freq0.29918894380113337     0.00%    passed     99.52%
+  46  PRJNA1130896_SRR29679830_H1_freq0.7279758412087833      0.00%    passed     87.41%
+  47  PRJNA1130896_SRR29679830_H2_freq0.2720241587912167      0.00%    passed     92.28%
+  48  PRJNA1130896_SRR29679833_H1_freq0.8040651993376454      0.00%    passed     87.41%
+  49  PRJNA1130896_SRR29679833_H2_freq0.19593480066235452     0.00%    passed     92.28%
+  50  PRJNA1130896_SRR29679834_H1_freq1.0                     0.00%    passed     99.44%
+  51  PRJNA1130896_SRR29679837_H1_freq0.7475688409467328      0.00%    passed     99.99%
+  52  PRJNA1130896_SRR29679837_H2_freq0.25243115905326724     0.00%    passed     99.66%
+  53  PRJNA1130896_SRR29679842_H1_freq0.7967298438348422      0.00%    passed     99.99%
+  54  PRJNA1130896_SRR29679842_H2_freq0.20327015616515776     0.00%    passed     99.62%
+  55  PRJNA1130896_SRR29679843_H1_freq0.7619319427501023      0.00%    passed     99.44%
+  56  PRJNA1130896_SRR29679843_H2_freq0.23806805724989766     0.10%    passed     98.26%
+  57  PRJNA1130896_SRR29679844_H1_freq0.3334695762557324      0.00%    passed     51.17%
+  58  PRJNA1130896_SRR29679844_H2_freq0.3333461508985229      0.00%    passed     56.77%
+  59  PRJNA1130896_SRR29679844_H3_freq0.33318427284574487     0.00%    passed     42.02%
+  60  PRJNA1130896_SRR29679851_H1_freq0.7404175546367235      0.00%    passed     99.99%
+  61  PRJNA1130896_SRR29679851_H2_freq0.2595824453632764      0.00%    passed     99.66%
+  62  PRJNA1130896_SRR29679852_H1_freq0.694323438141934       0.00%    passed     99.99%
+  63  PRJNA1130896_SRR29679852_H2_freq0.2771542826458662      0.00%    passed     99.66%
+  64  PRJNA1130896_SRR29679854_H1_freq0.6929496476250449      0.00%    passed     99.91%
+  65  PRJNA1130896_SRR29679854_H2_freq0.3070503523749552      0.10%    passed     99.07%
+  66  PRJNA1130896_SRR29679864_H1_freq0.7175939119785557      0.00%    passed     99.99%
+  67  PRJNA1130896_SRR29679864_H2_freq0.2568436189062811      0.00%    passed     99.62%
+  68  PRJNA1130896_SRR29679874_H1_freq0.7062607395302634      0.00%    passed     99.91%
+  69  PRJNA1130896_SRR29679874_H2_freq0.29373926046973664     0.10%    passed     99.07%
+  70  PRJNA1130896_SRR29692818_H1_freq0.6067793744122282      0.00%    passed     99.91%
+  71  PRJNA1130896_SRR29692818_H2_freq0.3932206255877718      0.00%    passed     99.48%
+  72  PRJNA1130896_SRR29692824_H1_freq0.870863273390585       0.00%    passed     99.57%
+  73  PRJNA1130896_SRR29692824_H2_freq0.1291367266094151      0.00%    passed     95.26%
+  74  PRJNA1130896_SRR29692828_H1_freq0.6682161722625938      0.00%    passed     94.11%
+  75  PRJNA1130896_SRR29692828_H2_freq0.33178382773740617     0.00%    passed     94.11%
+  76  PRJNA1130896_SRR29692831_H1_freq0.6098850456486777      0.00%    passed     99.91%
+  77  PRJNA1130896_SRR29692831_H2_freq0.3901149543513222      0.10%    passed     99.07%
+  78  PRJNA1130896_SRR29692854_H1_freq0.7965665110589417      0.00%    passed     99.93%
+  79  PRJNA1130896_SRR29692854_H2_freq0.2034334889410583      0.00%    passed     99.02%
+  80  PRJNA1130896_SRR29692857_H1_freq0.7993982309039193      0.00%    passed     99.93%
+  81  PRJNA1130896_SRR29692857_H2_freq0.2006017690960808      0.00%    passed     99.66%
+  82  PRJNA1130896_SRR29692865_H1_freq0.8136901965211014      0.00%    passed     99.99%
+  83  PRJNA1130896_SRR29692865_H2_freq0.1863098034788985      0.00%    passed     99.86%
+  84  PRJNA1130896_SRR29692873_H1_freq0.7600772401973354      0.00%    passed     97.95%
+  85  PRJNA1130896_SRR29692873_H2_freq0.23992275980266467     0.00%    passed     96.04%
+  86  PRJNA1130896_SRR29692875_H1_freq0.736073626686376       0.00%    passed     99.90%
+  87  PRJNA1130896_SRR29692875_H2_freq0.26392637331362406     0.00%    passed     99.91%
+  88  PRJNA1130896_SRR29692880_H1_freq0.9657219770570393      0.00%    passed     99.62%
+  89  PRJNA1130896_SRR29692880_H2_freq0.034278022942960756    0.52%    passed     99.55%
+  90  PRJNA1130896_SRR29692881_H1_freq0.5907976103031379      0.00%    passed     99.39%
+  91  PRJNA1130896_SRR29692881_H2_freq0.409202389696862       0.00%    passed     98.22%
+  92  PRJNA1130896_SRR29692884_H1_freq0.8139139645235197      0.00%    passed     94.88%
+  93  PRJNA1130896_SRR29692884_H2_freq0.18608603547648028     0.00%    passed     98.25%
+  94  PRJNA1130896_SRR29692887_H1_freq0.7281197722882446      0.00%    passed     99.83%
+  95  PRJNA1130896_SRR29692887_H2_freq0.27188022771175535     0.10%    passed     98.59%
+  96  PRJNA1130896_SRR29692889_H1_freq0.7674915247114079      0.00%    passed     99.91%
+  97  PRJNA1130896_SRR29692889_H2_freq0.2325084752885921      0.10%    passed     99.07%
+  98  PRJNA1130896_SRR29692926_H1_freq1.0                     0.00%    passed     99.86%
+  99  PRJNA1130896_SRR29692928_H1_freq0.8501069255234132      0.00%    passed     99.77%
+ 100  PRJNA1130896_SRR29692928_H2_freq0.1498930744765869      0.00%    passed     99.44%
+ 101  PRJNA1130896_SRR29692929_H1_freq0.705536552750352       0.00%    passed     99.56%
+ 102  PRJNA1130896_SRR29692929_H2_freq0.294463447249648       0.00%    passed     98.98%
+ 103  PRJNA1130896_SRR29692933_H1_freq0.7019706120271837      0.00%    passed     99.91%
+ 104  PRJNA1130896_SRR29692933_H2_freq0.29802938797281625     0.10%    passed     99.07%
+ 105  PRJNA1130896_SRR29692935_H1_freq1.0                     0.00%    passed     98.60%
+ 106  PRJNA1130896_SRR29692936_H1_freq0.7386062058450661      0.00%    passed     99.50%
+ 107  PRJNA1130896_SRR29692936_H2_freq0.2613937941549339      0.00%    passed     99.77%
+ 108  PRJNA1130896_SRR29692939_H1_freq0.7673802146487777      0.00%    passed     99.99%
+ 109  PRJNA1130896_SRR29692939_H2_freq0.23261978535122224     0.00%    passed     99.66%
+ 110  PRJNA1130896_SRR29692941_H1_freq1.0                     0.00%    passed     95.68%
+ 111  PRJNA1130896_SRR29692943_H1_freq0.681912997892643       0.00%    passed     99.50%
+ 112  PRJNA1130896_SRR29692943_H2_freq0.318087002107357       0.00%    passed     99.77%
+ 113  PRJNA1130896_SRR29692965_H1_freq0.7111777617211057      0.00%    passed     98.01%
+ 114  PRJNA1130896_SRR29692965_H2_freq0.2888222382788943      0.00%    passed     95.98%
+ 115  PRJNA1130896_SRR29692967_H1_freq0.8548409811951098      0.00%    passed     99.10%
+ 116  PRJNA1130896_SRR29692967_H2_freq0.14515901880489032     0.00%    passed     99.28%
+ 117  PRJNA1130896_SRR29692974_H1_freq0.7389765041234515      0.00%    passed     99.91%
+ 118  PRJNA1130896_SRR29692974_H2_freq0.26102349587654844     0.10%    passed     99.07%
+ 119  PRJNA1130896_SRR29692975_H1_freq0.8360274759203736      0.00%    passed     99.54%
+ 120  PRJNA1130896_SRR29692975_H2_freq0.16397252407962645     0.00%    passed     98.77%
+ 121  PRJNA1130896_SRR29692977_H1_freq0.7137682770656535      0.00%    passed     96.49%
+ 122  PRJNA1130896_SRR29692977_H2_freq0.28623172293434646     0.00%    passed     97.66%
+ 123  PRJNA1130896_SRR29692981_H1_freq0.8340307871838566      0.00%    passed     99.32%
+ 124  PRJNA1130896_SRR29692981_H2_freq0.1659692128161435      0.00%    passed     98.17%
+ 125  PRJNA1130896_SRR29692982_H1_freq0.7462614846851137      0.00%    passed     99.50%
+ 126  PRJNA1130896_SRR29692982_H2_freq0.2537385153148863      0.00%    passed     99.89%
+ 127  PRJNA1130896_SRR29692984_H1_freq0.8617266615295404      0.00%    passed     98.80%
+ 128  PRJNA1130896_SRR29692984_H2_freq0.13827333847045967     0.00%    passed     97.94%
+ 129  PRJNA1130896_SRR29692985_H1_freq0.7749677936276451      0.00%    passed     99.99%
+ 130  PRJNA1130896_SRR29692985_H2_freq0.19093593725075014     0.00%    passed     99.66%
+ 131  PRJNA1130896_SRR29692985_H3_freq0.034096269121604725    2.80%    passed     99.87%
+ 132  PRJNA1130896_SRR29692989_H1_freq0.862055538231712       0.00%    passed     99.65%
+ 133  PRJNA1130896_SRR29692989_H2_freq0.13794446176828803     0.00%    passed     98.94%
+ 134  PRJNA1130896_SRR29692991_H1_freq0.7560547339343282      0.00%    passed     99.50%
+ 135  PRJNA1130896_SRR29692991_H2_freq0.24394526606567166     0.00%    passed     99.77%
+ 136  PRJNA1130896_SRR29692998_H1_freq0.8206023801562456      0.00%    passed     99.99%
+ 137  PRJNA1130896_SRR29692998_H2_freq0.17939761984375438     0.00%    passed     99.66%
+ 138  PRJNA1130896_SRR29693057_H1_freq0.7200459573599572      0.00%    passed     98.76%
+ 139  PRJNA1130896_SRR29693057_H2_freq0.2799540426400428      0.00%    passed     96.46%
+ 140  PRJNA1130896_SRR29693058_H1_freq0.5381403205208668      0.00%    passed     99.99%
+ 141  PRJNA1130896_SRR29693058_H2_freq0.4618596794791332      0.00%    passed     99.66%
+ 142  PRJNA1130896_SRR29693059_H1_freq0.6721382896912568      0.00%    passed     99.92%
+ 143  PRJNA1130896_SRR29693059_H2_freq0.32786171030874334     0.00%    passed     99.83%
+ 144  PRJNA1130896_SRR29693060_H1_freq0.7438782013284034      0.00%    passed     96.44%
+ 145  PRJNA1130896_SRR29693060_H2_freq0.2561217986715966      0.00%    passed     94.85%
+****  TOTAL                                                   0.05%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: PRJNA1130896_SRR29679826_H1_freq0.7008110561988667 is identical to PRJNA1130896_SRR29679706_H1_freq0.7272618520242182 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29679826_H2_freq0.29918894380113337 is identical to PRJNA1130896_SRR29679706_H2_freq0.27273814797578183 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29692935_H1_freq1.0 is identical to PRJNA1130896_SRR29679713_H1_freq1.0 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29679723_H1_freq0.7513122981544529 is identical to PRJNA1130896_SRR29679716_H1_freq0.7456968501149668 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29679842_H2_freq0.20327015616515776 is identical to PRJNA1130896_SRR29679716_H2_freq0.25430314988503316 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29692824_H1_freq0.870863273390585 is identical to PRJNA1130896_SRR29679721_H1_freq0.657449594549411 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29679738_H2_freq0.24395874715635568 is identical to PRJNA1130896_SRR29679723_H2_freq0.24868770184554714 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29679814_H1_freq0.6512253869143104 is identical to PRJNA1130896_SRR29679729_H1_freq0.6862293117449161 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29692818_H2_freq0.3932206255877718 is identical to PRJNA1130896_SRR29679729_H2_freq0.3137706882550839 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29692967_H1_freq0.8548409811951098 is identical to PRJNA1130896_SRR29679732_H1_freq0.8271454540164361 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29692967_H2_freq0.14515901880489032 is identical to PRJNA1130896_SRR29679732_H2_freq0.14019485801101922 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29692828_H1_freq0.6682161722625938 is identical to PRJNA1130896_SRR29679809_H1_freq0.7378818987648629 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29692828_H2_freq0.33178382773740617 is identical to PRJNA1130896_SRR29679809_H2_freq0.2621181012351372 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29679823_H2_freq0.2566751588058488 is identical to PRJNA1130896_SRR29679814_H2_freq0.34877461308568963 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29679833_H1_freq0.8040651993376454 is identical to PRJNA1130896_SRR29679830_H1_freq0.7279758412087833 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29679833_H2_freq0.19593480066235452 is identical to PRJNA1130896_SRR29679830_H2_freq0.2720241587912167 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29679843_H1_freq0.7619319427501023 is identical to PRJNA1130896_SRR29679834_H1_freq1.0 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29692943_H1_freq0.681912997892643 is identical to PRJNA1130896_SRR29692936_H1_freq0.7386062058450661 but kept for subsequent analysis
+NOTE: PRJNA1130896_SRR29692943_H2_freq0.318087002107357 is identical to PRJNA1130896_SRR29692936_H2_freq0.2613937941549339 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000516397 secs
+Identifying sites to remove: done in 0.000528189 secs using 49.41% CPU
+NOTE: 36 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: PRJNA1130896_SRR29679738_H1_freq0.7560412528436443 (identical to PRJNA1130896_SRR29679716_H1_freq0.7456968501149668) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29679837_H1_freq0.7475688409467328 (identical to PRJNA1130896_SRR29679716_H1_freq0.7456968501149668) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29679842_H1_freq0.7967298438348422 (identical to PRJNA1130896_SRR29679716_H1_freq0.7456968501149668) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29679851_H1_freq0.7404175546367235 (identical to PRJNA1130896_SRR29679716_H1_freq0.7456968501149668) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29679852_H1_freq0.694323438141934 (identical to PRJNA1130896_SRR29679716_H1_freq0.7456968501149668) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29679864_H1_freq0.7175939119785557 (identical to PRJNA1130896_SRR29679716_H1_freq0.7456968501149668) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692939_H1_freq0.7673802146487777 (identical to PRJNA1130896_SRR29679716_H1_freq0.7456968501149668) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692985_H1_freq0.7749677936276451 (identical to PRJNA1130896_SRR29679716_H1_freq0.7456968501149668) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692998_H1_freq0.8206023801562456 (identical to PRJNA1130896_SRR29679716_H1_freq0.7456968501149668) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29693058_H1_freq0.5381403205208668 (identical to PRJNA1130896_SRR29679716_H1_freq0.7456968501149668) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29679864_H2_freq0.2568436189062811 (identical to PRJNA1130896_SRR29679716_H2_freq0.25430314988503316) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29679837_H2_freq0.25243115905326724 (identical to PRJNA1130896_SRR29679723_H2_freq0.24868770184554714) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29679851_H2_freq0.2595824453632764 (identical to PRJNA1130896_SRR29679723_H2_freq0.24868770184554714) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29679852_H2_freq0.2771542826458662 (identical to PRJNA1130896_SRR29679723_H2_freq0.24868770184554714) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692857_H2_freq0.2006017690960808 (identical to PRJNA1130896_SRR29679723_H2_freq0.24868770184554714) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692939_H2_freq0.23261978535122224 (identical to PRJNA1130896_SRR29679723_H2_freq0.24868770184554714) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692985_H2_freq0.19093593725075014 (identical to PRJNA1130896_SRR29679723_H2_freq0.24868770184554714) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692998_H2_freq0.17939761984375438 (identical to PRJNA1130896_SRR29679723_H2_freq0.24868770184554714) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29693058_H2_freq0.4618596794791332 (identical to PRJNA1130896_SRR29679723_H2_freq0.24868770184554714) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29679823_H1_freq0.7433248411941512 (identical to PRJNA1130896_SRR29679729_H1_freq0.6862293117449161) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29679854_H1_freq0.6929496476250449 (identical to PRJNA1130896_SRR29679729_H1_freq0.6862293117449161) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29679874_H1_freq0.7062607395302634 (identical to PRJNA1130896_SRR29679729_H1_freq0.6862293117449161) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692818_H1_freq0.6067793744122282 (identical to PRJNA1130896_SRR29679729_H1_freq0.6862293117449161) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692831_H1_freq0.6098850456486777 (identical to PRJNA1130896_SRR29679729_H1_freq0.6862293117449161) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692889_H1_freq0.7674915247114079 (identical to PRJNA1130896_SRR29679729_H1_freq0.6862293117449161) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692933_H1_freq0.7019706120271837 (identical to PRJNA1130896_SRR29679729_H1_freq0.6862293117449161) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692974_H1_freq0.7389765041234515 (identical to PRJNA1130896_SRR29679729_H1_freq0.6862293117449161) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29679854_H2_freq0.3070503523749552 (identical to PRJNA1130896_SRR29679814_H2_freq0.34877461308568963) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29679874_H2_freq0.29373926046973664 (identical to PRJNA1130896_SRR29679814_H2_freq0.34877461308568963) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692831_H2_freq0.3901149543513222 (identical to PRJNA1130896_SRR29679814_H2_freq0.34877461308568963) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692889_H2_freq0.2325084752885921 (identical to PRJNA1130896_SRR29679814_H2_freq0.34877461308568963) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692933_H2_freq0.29802938797281625 (identical to PRJNA1130896_SRR29679814_H2_freq0.34877461308568963) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692974_H2_freq0.26102349587654844 (identical to PRJNA1130896_SRR29679814_H2_freq0.34877461308568963) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692982_H1_freq0.7462614846851137 (identical to PRJNA1130896_SRR29692936_H1_freq0.7386062058450661) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692991_H1_freq0.7560547339343282 (identical to PRJNA1130896_SRR29692936_H1_freq0.7386062058450661) is ignored but added at the end
+NOTE: PRJNA1130896_SRR29692991_H2_freq0.24394526606567166 (identical to PRJNA1130896_SRR29692936_H2_freq0.2613937941549339) is ignored but added at the end
+Alignment was printed to /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/trees/PRJNA1130896_extracted_4652-5617.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/trees/PRJNA1130896_extracted_4652-5617.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+Measuring multi-threading efficiency up to 128 CPU cores
+Increase to 10 rounds for branch lengths
+3084 trees examined
+Threads: 1 / Time: 128.017 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -9385
+Threads: 2 / Time: 260.611 sec / Speedup: 0.491 / Efficiency: 25% / LogL: -9385
+Determining AUTO threadcount: done in 388.629 secs using 160.3% CPU
+BEST NUMBER OF THREADS: 1
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -3857.504
+Optimal log-likelihood: -3857.474
+Rate parameters:  A-C: 6.49950  A-G: 51.37550  A-T: 7.67084  C-G: 0.00010  C-T: 99.70010  G-T: 1.00000
+Warning! Some parameters hit the boundaries
+Base frequencies:  A: 0.402  C: 0.319  G: 0.109  T: 0.170
+Proportion of invariable sites: 0.384
+Gamma shape alpha: 0.755
+Parameters optimization took 1 rounds (0.036 sec)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Time for fast ML tree search: 0.249 seconds
+
+NOTE: ModelFinder requires 8 MB RAM!
+ModelFinder will test up to 968 DNA models (sample size: 966 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            4387.991     215 9205.983     9329.823     10253.713
+  2  JC+I          4269.579     216 8971.157     9096.316     10023.760
+  3  JC+G4         4258.418     216 8948.836     9073.995     10001.440
+  4  JC+I+G4       4249.621     217 8933.242     9059.729     9990.719
+  5  JC+R2         4240.827     217 8915.654     9042.140     9973.130
+  6  JC+R3         4226.171     219 8890.343     9019.512     9957.566
++R4 reinitialized from +R3 with factor 0.500
+  7  JC+R4         4226.231     221 8894.462     9026.349     9971.431
+ 14  JC+I+R2       4227.315     218 8890.630     9018.453     9952.979
+ 15  JC+I+R3       4227.113     220 8894.226     9024.749     9966.322
+ 28  JC+R3         4226.171     219 8890.343     9019.512     9957.566
+ 36  JC+I+R2       4227.315     218 8890.630     9018.453     9952.979
+ 50  F81+R3        4226.116     219 8890.232     9019.401     9957.455
+ 58  F81+I+R2      4227.310     218 8890.620     9018.444     9952.970
+ 72  F81+F+R3      4117.893     222 8679.786     8813.046     9761.628
+ 80  F81+F+I+R2    4118.709     221 8679.417     8811.304     9756.386
+ 94  K2P+R3        3998.902     220 8437.803     8568.327     9509.899
+102  K2P+I+R2      4000.305     219 8438.609     8567.778     9505.832
+116  K2P+R3        3998.902     220 8437.803     8568.327     9509.899
+124  K2P+I+R2      4000.305     219 8438.609     8567.778     9505.832
+138  HKY+R3        3998.898     220 8437.795     8568.319     9509.891
+146  HKY+I+R2      4000.303     219 8438.606     8567.775     9505.829
+160  HKY+F+R3      3841.217     223 8128.434     8263.075     9215.149
+168  HKY+F+I+R2    3846.181     222 8136.362     8269.622     9218.205
+182  TNe+R3        3985.679     221 8413.358     8545.245     9490.327
+190  TNe+I+R2      3991.101     220 8422.202     8552.725     9494.298
+204  TNe+R3        3985.679     221 8413.358     8545.245     9490.327
+212  TNe+I+R2      3991.101     220 8422.202     8552.725     9494.298
+226  TN+R3         3985.678     221 8413.357     8545.244     9490.326
+234  TN+I+R2       3991.051     220 8422.101     8552.625     9494.197
+248  TN+F+R3       3831.430     224 8110.860     8246.893     9202.449
+256  TN+F+I+R2     3838.448     223 8122.896     8257.538     9209.612
+270  K3P+R3        3995.263     221 8432.526     8564.413     9509.495
+278  K3P+I+R2      3996.401     220 8432.802     8563.325     9504.898
+292  K3P+R3        3995.263     221 8432.526     8564.413     9509.495
+300  K3P+I+R2      3996.401     220 8432.802     8563.325     9504.898
+314  K3Pu+R3       3995.022     221 8432.044     8563.931     9509.014
+322  K3Pu+I+R2     3996.401     220 8432.802     8563.326     9504.898
+336  K3Pu+F+R3     3840.218     224 8128.435     8264.467     9220.024
+344  K3Pu+F+I+R2   3844.942     223 8135.885     8270.526     9222.600
+358  TPM2+R3       3979.938     221 8401.877     8533.764     9478.846
+366  TPM2+I+R2     3981.547     220 8403.093     8533.617     9475.189
+380  TPM2+R3       3979.938     221 8401.877     8533.764     9478.846
+388  TPM2+I+R2     3981.547     220 8403.093     8533.617     9475.189
+402  TPM2u+R3      3979.685     221 8401.369     8533.256     9478.339
+410  TPM2u+I+R2    3981.544     220 8403.087     8533.611     9475.183
+424  TPM2u+F+R3    3837.483     224 8122.966     8258.998     9214.554
+432  TPM2u+F+I+R2  3842.188     223 8130.376     8265.018     9217.092
+446  TPM3+R3       3998.919     221 8439.838     8571.725     9516.807
+454  TPM3+I+R2     4000.040     220 8440.080     8570.603     9512.176
+468  TPM3+R3       3998.919     221 8439.838     8571.725     9516.807
+476  TPM3+I+R2     4000.040     220 8440.080     8570.603     9512.176
+490  TPM3u+R3      3998.677     221 8439.355     8571.242     9516.324
+498  TPM3u+I+R2    4000.040     220 8440.080     8570.603     9512.176
+512  TPM3u+F+R3    3840.630     224 8129.259     8265.292     9220.848
+520  TPM3u+F+I+R2  3845.469     223 8136.938     8271.579     9223.653
+534  TIMe+R3       3981.674     222 8407.348     8540.608     9489.190
+542  TIMe+I+R2     3987.179     221 8416.359     8548.246     9493.328
+556  TIMe+R3       3981.674     222 8407.348     8540.608     9489.190
+564  TIMe+I+R2     3987.179     221 8416.359     8548.246     9493.328
+578  TIM+R3        3981.635     222 8407.271     8540.530     9489.113
+586  TIM+I+R2      3987.154     221 8416.309     8548.196     9493.278
+600  TIM+F+R3      3830.775     225 8111.550     8248.982     9208.012
+608  TIM+F+I+R2    3837.861     224 8123.722     8259.754     9215.311
+622  TIM2e+R3      3967.721     222 8379.442     8512.701     9461.284
+630  TIM2e+I+R2    3971.894     221 8385.789     8517.676     9462.758
+644  TIM2e+R3      3967.721     222 8379.442     8512.701     9461.284
+652  TIM2e+I+R2    3971.894     221 8385.789     8517.676     9462.758
+666  TIM2+R3       3967.682     222 8379.365     8512.625     9461.207
+674  TIM2+I+R2     3971.793     221 8385.587     8517.474     9462.556
+688  TIM2+F+R3     3827.710     225 8105.420     8242.852     9201.882
+696  TIM2+F+I+R2   3835.093     224 8118.187     8254.219     9209.775
+710  TIM3e+R3      3985.657     222 8415.315     8548.574     9497.157
+718  TIM3e+I+R2    3990.999     221 8423.999     8555.886     9500.968
+732  TIM3e+R3      3985.657     222 8415.315     8548.574     9497.157
+740  TIM3e+I+R2    3990.999     221 8423.999     8555.886     9500.968
+754  TIM3+R3       3985.597     222 8415.193     8548.453     9497.036
+762  TIM3+I+R2     3990.891     221 8423.782     8555.669     9500.752
+776  TIM3+F+R3     3831.168     225 8112.336     8249.769     9208.798
+784  TIM3+F+I+R2   3838.233     224 8124.467     8260.499     9216.056
+798  TVMe+R3       3975.317     223 8396.635     8531.276     9483.350
+806  TVMe+I+R2     3976.946     222 8397.892     8531.152     9479.734
+820  TVMe+R3       3975.317     223 8396.635     8531.276     9483.350
+828  TVMe+I+R2     3976.946     222 8397.892     8531.152     9479.734
+842  TVM+R3        3975.189     223 8396.377     8531.019     9483.093
+850  TVM+I+R2      3976.861     222 8397.722     8530.982     9479.564
+864  TVM+F+R3      3833.640     226 8119.280     8258.122     9220.615
+872  TVM+F+I+R2    3838.712     225 8127.423     8264.856     9223.885
+886  SYM+R3        3963.581     224 8375.163     8511.195     9466.752
+894  SYM+I+R2      3967.357     223 8380.714     8515.355     9467.429
+908  SYM+R3        3963.581     224 8375.163     8511.195     9466.752
+916  SYM+I+R2      3967.357     223 8380.714     8515.355     9467.429
+930  GTR+R3        3963.565     224 8375.131     8511.163     9466.719
+938  GTR+I+R2      3967.280     223 8380.560     8515.202     9467.276
+952  GTR+F+R3      3823.965     227 8101.929     8242.189     9208.137
+960  GTR+F+I+R2    3830.714     226 8113.427     8252.269     9214.762
+Akaike Information Criterion:           GTR+F+R3
+Corrected Akaike Information Criterion: GTR+F+R3
+Bayesian Information Criterion:         TIM2+F+R3
+Best-fit model: TIM2+F+R3 chosen according to BIC
+
+All model information printed to /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/trees/PRJNA1130896_extracted_4652-5617.model.gz
+CPU time for ModelFinder: 637.121 seconds (0h:10m:37s)
+Wall-clock time for ModelFinder: 402.955 seconds (0h:6m:42s)
+Generating 1000 samples for ultrafast bootstrap (seed: 834802)...
+
+NOTE: 3 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3828.152
+2. Current log-likelihood: -3827.031
+Optimal log-likelihood: -3827.025
+Rate parameters:  A-C: 3.11030  A-G: 25.16496  A-T: 3.11030  C-G: 1.00000  C-T: 49.35734  G-T: 1.00000
+Base frequencies:  A: 0.402  C: 0.319  G: 0.109  T: 0.170
+Site proportion and rates:  (0.808,0.282) (0.187,3.234) (0.004,40.890)
+Parameters optimization took 2 rounds (0.074 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0297739 secs using 99.65% CPU
+Computing ML distances took 0.029845 sec (of wall-clock time) 0.029743 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00053924 secs using 281.5% CPU
+Constructing RapidNJ tree: done in 0.000775884 secs using 228.6% CPU
+Computing RapidNJ tree took 0.001390 sec (of wall-clock time) 0.003367 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3819.108
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.525 second
+Computing log-likelihood of 98 initial trees ... 0.387 seconds
+Current best score: -3811.955
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3810.542
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -3809.586
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -3808.949
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 8: -3793.831
+Iteration 10 / LogL: -3817.319 / Time: 0h:6m:45s
+Iteration 20 / LogL: -3817.188 / Time: 0h:6m:46s
+Finish initializing candidate tree set (20)
+Current best tree score: -3793.831 / CPU time: 3.396
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -3811.729 / Time: 0h:6m:47s (0h:0m:13s left)
+BETTER TREE FOUND at iteration 34: -3793.831
+Iteration 40 / LogL: -3816.114 / Time: 0h:6m:49s (0h:0m:15s left)
+BETTER TREE FOUND at iteration 41: -3793.825
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -3792.608
+Iteration 50 / LogL: -3793.785 / Time: 0h:6m:50s (0h:0m:14s left)
+Log-likelihood cutoff on original alignment: -3855.159
+Iteration 60 / LogL: -3793.152 / Time: 0h:6m:52s (0h:0m:13s left)
+BETTER TREE FOUND at iteration 63: -3792.608
+Iteration 70 / LogL: -3793.156 / Time: 0h:6m:53s (0h:0m:14s left)
+Iteration 80 / LogL: -3808.453 / Time: 0h:6m:54s (0h:0m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 81: -3791.971
+BETTER TREE FOUND at iteration 89: -3791.967
+Iteration 90 / LogL: -3796.546 / Time: 0h:6m:56s (0h:0m:14s left)
+BETTER TREE FOUND at iteration 91: -3791.967
+BETTER TREE FOUND at iteration 99: -3791.966
+Iteration 100 / LogL: -3810.418 / Time: 0h:6m:57s (0h:0m:14s left)
+Log-likelihood cutoff on original alignment: -3855.159
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 110 / LogL: -3806.142 / Time: 0h:6m:59s (0h:0m:13s left)
+Iteration 120 / LogL: -3791.967 / Time: 0h:7m:0s (0h:0m:11s left)
+Iteration 130 / LogL: -3791.969 / Time: 0h:7m:1s (0h:0m:10s left)
+Iteration 140 / LogL: -3800.563 / Time: 0h:7m:3s (0h:0m:8s left)
+BETTER TREE FOUND at iteration 148: -3791.965
+Iteration 150 / LogL: -3795.546 / Time: 0h:7m:4s (0h:0m:14s left)
+Log-likelihood cutoff on original alignment: -3855.159
+Iteration 160 / LogL: -3792.855 / Time: 0h:7m:6s (0h:0m:12s left)
+Iteration 170 / LogL: -3796.641 / Time: 0h:7m:7s (0h:0m:11s left)
+Iteration 180 / LogL: -3791.967 / Time: 0h:7m:8s (0h:0m:9s left)
+Iteration 190 / LogL: -3791.965 / Time: 0h:7m:10s (0h:0m:8s left)
+Iteration 200 / LogL: -3801.758 / Time: 0h:7m:11s (0h:0m:6s left)
+Log-likelihood cutoff on original alignment: -3855.159
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+BETTER TREE FOUND at iteration 205: -3791.964
+Iteration 210 / LogL: -3792.265 / Time: 0h:7m:13s (0h:0m:13s left)
+Iteration 220 / LogL: -3791.965 / Time: 0h:7m:14s (0h:0m:12s left)
+Iteration 230 / LogL: -3791.966 / Time: 0h:7m:16s (0h:0m:10s left)
+Iteration 240 / LogL: -3797.206 / Time: 0h:7m:17s (0h:0m:9s left)
+BETTER TREE FOUND at iteration 243: -3791.964
+Iteration 250 / LogL: -3809.714 / Time: 0h:7m:18s (0h:0m:13s left)
+Log-likelihood cutoff on original alignment: -3855.159
+Iteration 260 / LogL: -3791.967 / Time: 0h:7m:20s (0h:0m:12s left)
+BETTER TREE FOUND at iteration 264: -3791.964
+Iteration 270 / LogL: -3796.031 / Time: 0h:7m:21s (0h:0m:13s left)
+BETTER TREE FOUND at iteration 276: -3791.962
+Iteration 280 / LogL: -3800.590 / Time: 0h:7m:23s (0h:0m:13s left)
+BETTER TREE FOUND at iteration 287: -3791.962
+Iteration 290 / LogL: -3810.364 / Time: 0h:7m:24s (0h:0m:13s left)
+Iteration 300 / LogL: -3791.966 / Time: 0h:7m:26s (0h:0m:12s left)
+Log-likelihood cutoff on original alignment: -3855.159
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 310 / LogL: -3791.963 / Time: 0h:7m:27s (0h:0m:13s left)
+BETTER TREE FOUND at iteration 318: -3791.961
+Iteration 320 / LogL: -3791.963 / Time: 0h:7m:29s (0h:0m:14s left)
+Iteration 330 / LogL: -3791.963 / Time: 0h:7m:30s (0h:0m:12s left)
+Iteration 340 / LogL: -3791.968 / Time: 0h:7m:31s (0h:0m:11s left)
+Iteration 350 / LogL: -3818.920 / Time: 0h:7m:33s (0h:0m:9s left)
+Log-likelihood cutoff on original alignment: -3855.159
+Iteration 360 / LogL: -3791.961 / Time: 0h:7m:35s (0h:0m:8s left)
+Iteration 370 / LogL: -3791.964 / Time: 0h:7m:36s (0h:0m:6s left)
+Iteration 380 / LogL: -3791.962 / Time: 0h:7m:37s (0h:0m:5s left)
+Iteration 390 / LogL: -3794.219 / Time: 0h:7m:39s (0h:0m:4s left)
+Iteration 400 / LogL: -3791.962 / Time: 0h:7m:40s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -3855.159
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 410 / LogL: -3791.961 / Time: 0h:7m:42s (0h:0m:13s left)
+TREE SEARCH COMPLETED AFTER 419 ITERATIONS / Time: 0h:7m:43s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3791.961
+2. Current log-likelihood: -3791.949
+Optimal log-likelihood: -3791.939
+Rate parameters:  A-C: 2.99881  A-G: 26.24107  A-T: 2.99881  C-G: 1.00000  C-T: 41.98074  G-T: 1.00000
+Base frequencies:  A: 0.402  C: 0.319  G: 0.109  T: 0.170
+Site proportion and rates:  (0.840,0.347) (0.152,3.001) (0.007,33.931)
+Parameters optimization took 2 rounds (0.053 sec)
+BEST SCORE FOUND : -3791.939
+Creating bootstrap support values...
+Split supports printed to NEXUS file /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/trees/PRJNA1130896_extracted_4652-5617.splits.nex
+Total tree length: 0.482
+
+Total number of iterations: 419
+CPU time used for tree search: 57.355 sec (0h:0m:57s)
+Wall-clock time used for tree search: 60.866 sec (0h:1m:0s)
+Total CPU time used: 694.893 sec (0h:11m:34s)
+Total wall-clock time used: 464.234 sec (0h:7m:44s)
+
+Computing bootstrap consensus tree...
+Reading input file /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/trees/PRJNA1130896_extracted_4652-5617.splits.nex...
+109 taxa and 1524 splits.
+Consensus tree written to /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/trees/PRJNA1130896_extracted_4652-5617.contree
+Reading input trees file /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/trees/PRJNA1130896_extracted_4652-5617.contree
+Log-likelihood of consensus tree: -3791.941
+
+Analysis results written to: 
+  IQ-TREE report:                /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/trees/PRJNA1130896_extracted_4652-5617.iqtree
+  Maximum-likelihood tree:       /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/trees/PRJNA1130896_extracted_4652-5617.treefile
+  Likelihood distances:          /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/trees/PRJNA1130896_extracted_4652-5617.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/trees/PRJNA1130896_extracted_4652-5617.splits.nex
+  Consensus tree:                /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/trees/PRJNA1130896_extracted_4652-5617.contree
+  Screen log file:               /root/autodl-tmp/RSV-A-v_nogenotype/data/processed_data/rerun_PRJNA1130896_G_Q20mask_TF003_T10/trees/PRJNA1130896_extracted_4652-5617.log
+
+Date and Time: Sat May  9 10:20:02 2026
